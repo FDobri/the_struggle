@@ -28,6 +28,11 @@ public class PlayerMovementController : MonoBehaviour
 		{
 			_rigidbody.AddForce(_jumpVector, jumpForceMode);
 		}
+
+		if (Input.GetKey(KeyCode.K))
+		{
+			FindObjectOfType<AudioManager>().PlaySound("ButtonClick");
+		}
 	}
 
 	private void FixedUpdate()
