@@ -14,6 +14,8 @@ public class PlayerMovementController : MonoBehaviour
 	public float jumpForce;
     public float moveForce;
 
+    Animator plejer;
+
     [Tooltip("Should be Impulse for now.")]
 	public ForceMode2D jumpForceMode;
 
@@ -35,6 +37,7 @@ public class PlayerMovementController : MonoBehaviour
 		_jumpVector = new Vector2(0f, jumpForce);
 		_groundChecker = transform.GetComponentInChildren<PlayerGroundChecker>();
         _rigidbody = transform.GetComponent<Rigidbody2D>();
+        plejer = GameObject.FindWithTag("Player").GetComponent<Animator>();
     }
 
     public Direction GetPlayerDirection()
@@ -46,6 +49,7 @@ public class PlayerMovementController : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Space) && _groundChecker.IsGrounded)
 		{
+            plejer.SetTrigger("jumpT");
             _jumpVector.Set(0f, jumpForce);
 			_rigidbody.AddForce(_jumpVector, jumpForceMode);  
 		}
@@ -79,14 +83,17 @@ public class PlayerMovementController : MonoBehaviour
         if (Mathf.Approximately(direction, 0.0f))
         {
             _playerDirection = Direction.NONE;
+            plejer.Play("_Main_Char_Idle");
         }
         else if (direction < 0f)
         {
             _playerDirection = Direction.LEFT;
+            plejer.Play("_Main_Char_Run");
         }
         else
         {
             _playerDirection = Direction.RIGHT;
+            plejer.Play("_Main_Char_Run");
         }
     }
 }
