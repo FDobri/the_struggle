@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 7642042635604236520}
   - component: {fileID: 1499678202}
   - component: {fileID: 808012406286039803}
+  - component: {fileID: 7984015670875542292}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -251,6 +252,27 @@ MonoBehaviour:
   hitBox: {fileID: 4800987235633704274}
   attackCooldown: 0.5
   canAttack: 1
+--- !u!114 &7984015670875542292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642042635604236501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a8f5838fd68cf45b75a5f4da8ba588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  femaleCharacterEvil: {fileID: -5725962078152895296, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  femaleCharacterGood: {fileID: -8090365562718305141, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  maleCharacterEvil: {fileID: -790699523677361007, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  maleCharacterGood: {fileID: 6167071470516247665, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  spriteRenderer: {fileID: 7642042635604236502}
 --- !u!1 &7642042636541425446
 GameObject:
   m_ObjectHideFlags: 0
