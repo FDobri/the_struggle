@@ -18,8 +18,6 @@ public class CameraController : MonoBehaviour
 	{
         transform.position = new Vector3(Mathf.Lerp(this.transform.position.x, player.transform.position.x, Time.deltaTime * smoothCamera),
                                         Mathf.Lerp(this.transform.position.y, player.transform.position.y, Time.deltaTime * smoothCamera), cameraZ);
-
-
     }
 }
 
