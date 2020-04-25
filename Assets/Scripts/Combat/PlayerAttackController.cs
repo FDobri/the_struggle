@@ -6,7 +6,7 @@ public class PlayerAttackController : AttackController
 {
 	private void Update()
 	{
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButtonUp(0))
 		{
 			Attack();
 		}
