@@ -1588,9 +1588,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82a8f5838fd68cf45b75a5f4da8ba588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  femaleCharacter: {fileID: -4060318028669273776, guid: 4d93fcdec43277b4d88201e72c340f40,
+  femaleCharacterEvil: {fileID: -5725962078152895296, guid: 4d93fcdec43277b4d88201e72c340f40,
     type: 3}
-  maleCharacter: {fileID: -790699523677361007, guid: 4d93fcdec43277b4d88201e72c340f40,
+  femaleCharacterGood: {fileID: -8090365562718305141, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  maleCharacterEvil: {fileID: -790699523677361007, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  maleCharacterGood: {fileID: 6167071470516247665, guid: 4d93fcdec43277b4d88201e72c340f40,
     type: 3}
   spriteRenderer: {fileID: 537889759}
 --- !u!1001 &580155359
