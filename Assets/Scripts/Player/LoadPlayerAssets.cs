@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class LoadPlayerAssets : MonoBehaviour
 {
-    public Sprite femaleCharacter;
-    public Sprite maleCharacter;
+    public Sprite femaleCharacterEvil;
+    public Sprite femaleCharacterGood;
+    public Sprite maleCharacterEvil;
+    public Sprite maleCharacterGood;
     public SpriteRenderer spriteRenderer;
 
     private GameController _gameController;
@@ -17,11 +19,26 @@ public class LoadPlayerAssets : MonoBehaviour
 
         if (_gameController != null && _gameController.character.ToString() == "Female")
         {
-            spriteRenderer.sprite = femaleCharacter;
+            if (SceneTransitionManager.levelName == "Scene_02" || SceneTransitionManager.levelName == "Scene_04")
+            {
+                spriteRenderer.sprite = femaleCharacterEvil;
+            }
+            else
+            {
+                spriteRenderer.sprite = femaleCharacterGood;
+            }
+                
         }
         else 
         {
-            spriteRenderer.sprite = maleCharacter;
+            if (SceneTransitionManager.levelName == "Scene_02" || SceneTransitionManager.levelName == "Scene_04")
+            {
+                spriteRenderer.sprite = maleCharacterEvil;
+            }
+            else
+            {
+                spriteRenderer.sprite = maleCharacterGood;
+            }
         }
     }
 

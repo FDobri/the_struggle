@@ -1,22 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HitBoxController : MonoBehaviour
 {
-	private float _selfDestroyTimer = 0.5f;
+	private const float SELF_HIDE_TIMER = 0.5f;
+	private float _selfHideTimer = SELF_HIDE_TIMER;
 
     void Update()
     {
-		_selfDestroyTimer -= Time.deltaTime;
-		if (_selfDestroyTimer <= 0.0f && gameObject != null)
+		_selfHideTimer -= Time.deltaTime;
+		if (_selfHideTimer <= 0.0f && gameObject != null)
 		{
-			Destroy(gameObject);
+			gameObject.SetActive(false);
 		}
 	}
 
-	private void OnCollisionEnter2D(Collision2D collision)
+	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		Debug.Log("Entered collision. Collided with: " + collision.gameObject.name);
+		if (!collider.tag.Equals(gameObject.tag))
+		{
+			int damage = gameObject.GetComponentInParent<Attributes>().damage;
+			var collidedObjectAttributes = collider.gameObject.GetComponent<Attributes>();
+			if (collidedObjectAttributes)
+			{
+				collidedObjectAttributes.TakeDamage(damage);
+				gameObject.SetActive(false);
+			}
+		}
+	}
+
+	public void Activate()
+	{
+		gameObject.SetActive(true);
+		_selfHideTimer = SELF_HIDE_TIMER;
 	}
 }
