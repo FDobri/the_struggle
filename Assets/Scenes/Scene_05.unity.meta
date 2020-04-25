@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animations/Textures/Female_GG.meta
+guid: f6c2f94a16184294fb9927bd1f00f20f
+folderAsset: yes
+=======
 guid: 004e0614ac2d8ba469ed332e62b1b318
+>>>>>>> 3c5509b2a9dbe2d266ab8393ddbde12a51d6f9ce:Assets/Scenes/Scene_05.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
