@@ -1439,6 +1439,7 @@ GameObject:
   - component: {fileID: 537889758}
   - component: {fileID: 537889757}
   - component: {fileID: 537889761}
+  - component: {fileID: 537889762}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1575,6 +1576,23 @@ MonoBehaviour:
   speedMultiplier: 14
   jumpForce: 75
   jumpForceMode: 1
+--- !u!114 &537889762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537889756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a8f5838fd68cf45b75a5f4da8ba588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  femaleCharacter: {fileID: -4060318028669273776, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  maleCharacter: {fileID: -790699523677361007, guid: 4d93fcdec43277b4d88201e72c340f40,
+    type: 3}
+  spriteRenderer: {fileID: 537889759}
 --- !u!1001 &580155359
 PrefabInstance:
   m_ObjectHideFlags: 0
