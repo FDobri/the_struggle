@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransitionManager : MonoBehaviour
 {
-	[HideInInspector]
 	public static string levelName;
 	public void ChangeScene(string sceneName)
 	{
