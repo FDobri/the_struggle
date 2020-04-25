@@ -3,6 +3,9 @@
 public class EnemyAggroController : MonoBehaviour
 {
 	public bool inCombat = false;
+	private GameObject _player;
+
+	// start method: get initial position
 
 	private void Update()
 	{
@@ -10,8 +13,19 @@ public class EnemyAggroController : MonoBehaviour
 		{
 			return;
 		}
+		if ((transform.parent.position - _player.transform.position).normalized.x < 0f)
+		{
+			// turn right
+		}
+		else
+		{
+			// turn left
+		}
 
-
+		// move transform forward
+		// if v2.distance (enemy, player) close enough swing
+		// if v2.distance (current enemy position, initial enemy position)
+		// stop chasing, run back
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -19,6 +33,7 @@ public class EnemyAggroController : MonoBehaviour
 		if (collision.tag.Equals("Player"))
 		{
 			EnterCombat();
+			_player = collision.gameObject;
 		}
 	}
 

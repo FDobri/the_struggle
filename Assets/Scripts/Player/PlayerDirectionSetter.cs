@@ -8,6 +8,8 @@ public class PlayerDirectionSetter : MonoBehaviour
 	public float RotationSpeed = 20.0f;
 	public PlayerMovementController playerMovementController;
 	private float _singleStep = 0f;
+	private static Vector3 vectorLeft = new Vector3(0f, 180f, 0f);
+	private static Vector3 vectorRight = new Vector3(0f, 0f, 0f);
 
 	void Update()
 	{
@@ -21,13 +23,13 @@ public class PlayerDirectionSetter : MonoBehaviour
 		{
 			case Direction.LEFT:
 				{
-					targetAngle = new Vector3(0f, 181f, 0f);
+					targetAngle = vectorLeft;
 					break;
 				}
 
 			case Direction.RIGHT:
 				{
-					targetAngle = new Vector3(0f, 0f, 0f);
+					targetAngle = vectorRight;
 					break;
 				}
 
@@ -42,6 +44,5 @@ public class PlayerDirectionSetter : MonoBehaviour
 			 );
 
 		transform.eulerAngles = currentAngle;
-
 	}
 }
