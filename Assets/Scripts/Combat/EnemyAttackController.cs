@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class EnemyAttackController : AttackController
 {
-	[HideInInspector]
-	public bool inCombat = false;
 	private Transform _playerTransform;
+	private EnemyAggroController _enemyAggroController;
 
     void Start()
     {
 		_playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-    }
+		_enemyAggroController = transform.GetComponentInChildren<EnemyAggroController>();
+
+	}
 
 	void Update()
     {
-        if (!inCombat)
+        if (!_enemyAggroController.inCombat)
 		{
 			return;
 		}
-		if (Vector2.Distance(gameObject.transform.position, _playerTransform.position) < 3f)
+		if (Vector2.Distance(gameObject.transform.position, _playerTransform.position) < 1f)
 		{
 			Attack();
 		}
