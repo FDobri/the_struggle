@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyAttackController : AttackController
 {
@@ -11,7 +9,6 @@ public class EnemyAttackController : AttackController
     {
 		_playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 		_enemyAggroController = transform.GetComponentInChildren<EnemyAggroController>();
-
 	}
 
 	void Update()
@@ -20,7 +17,7 @@ public class EnemyAttackController : AttackController
 		{
 			return;
 		}
-		if (Vector2.Distance(gameObject.transform.position, _playerTransform.position) < 1f)
+		if (Vector3.Distance(gameObject.transform.position, _playerTransform.position) < 3f)
 		{
 			Attack();
 		}

@@ -14,7 +14,8 @@ public class PlayerGroundChecker : MonoBehaviour
 
 	private void OnCollisionExit2D(Collision2D collision)
 	{
-		if (collision.transform.tag.Equals("Ground"))
+		string collisionTag = collision.transform.tag;
+		if (collisionTag.Equals("Ground") || collisionTag.Equals("Enemy"))
 		{
 			IsGrounded = false;
 		}

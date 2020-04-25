@@ -3,6 +3,9 @@
 public class HitBoxController : MonoBehaviour
 {
 	private const float SELF_HIDE_TIMER = 0.5f;
+
+	public string hitBoxTargetTag;
+
 	private float _selfHideTimer = SELF_HIDE_TIMER;
 
     void Update()
@@ -16,7 +19,7 @@ public class HitBoxController : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		if (!collider.tag.Equals(gameObject.tag))
+		if (collider.tag.Equals(hitBoxTargetTag))
 		{
 			int damage = gameObject.GetComponentInParent<Attributes>().damage;
 			var collidedObjectAttributes = collider.gameObject.GetComponent<Attributes>();
