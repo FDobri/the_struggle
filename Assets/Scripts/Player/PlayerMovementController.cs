@@ -10,11 +10,8 @@ public enum Direction
 
 public class PlayerMovementController : MonoBehaviour
 {
-    
-
     public float speedMultiplier;
 	public float jumpForce;
-    public GameObject _playerModel;
 
     [Tooltip("Should be Impulse for now.")]
 	public ForceMode2D jumpForceMode;
@@ -32,8 +29,7 @@ public class PlayerMovementController : MonoBehaviour
 	{
 		_jumpVector = new Vector2(0f, jumpForce);
 		_groundChecker = transform.GetComponentInChildren<PlayerGroundChecker>();
-		_rigidbody = transform.GetComponent<Rigidbody2D>();
-        Assert.IsNotNull(_playerModel, "Player model Game Object must be set in editor");
+        _rigidbody = transform.GetComponent<Rigidbody2D>();
     }
 
     public Direction GetPlayerDirection()
@@ -45,7 +41,9 @@ public class PlayerMovementController : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Space) && _groundChecker.IsGrounded)
 		{
+            _jumpVector.Set(0f, jumpForce);
 			_rigidbody.AddForce(_jumpVector, jumpForceMode);
+            
 		}
 
 		if (Input.GetKey(KeyCode.K))
@@ -61,7 +59,12 @@ public class PlayerMovementController : MonoBehaviour
         
 		transform.position += new Vector3(direction * Time.fixedDeltaTime * speedMultiplier, 0f);
 
-        if (direction < 0.0f)
+
+        if (Mathf.Approximately(direction, 0.0f))
+        {
+            _playerDirection = Direction.NONE;
+        }
+        else if (direction < 0f)
         {
             _playerDirection = Direction.LEFT;
         }
