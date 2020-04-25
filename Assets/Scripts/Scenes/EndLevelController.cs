@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class EndLevelController : MonoBehaviour
 {
+    public GameObject MainCamera;
+    public GameObject OutroPrefab;
     public SceneTransitionManager sceneTransitionManager;
     public string NextSceneName;
-    public GameObject Player;
 
+    public float sceneChangeTimeOut = 1.85f;
     private bool playerTriggeredEndSceneEvent = false;
 
     void Start()
@@ -15,10 +17,16 @@ public class EndLevelController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (playerTriggeredEndSceneEvent)
+        {
+            sceneChangeTimeOut -= Time.deltaTime;
+            if (sceneChangeTimeOut < 0f)
+            {
+                sceneTransitionManager.ChangeScene(NextSceneName);
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -29,6 +37,6 @@ public class EndLevelController : MonoBehaviour
         }
 
         playerTriggeredEndSceneEvent = true;
-        sceneTransitionManager.ChangeScene(NextSceneName);
+        Instantiate(OutroPrefab, MainCamera.transform);
     }
 }
