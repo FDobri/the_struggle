@@ -1,5 +1,8 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 [System.Serializable]
 public class Sound
@@ -20,6 +23,8 @@ public class Sound
 public class AudioManager : MonoBehaviour
 {
 	public Sound[] sounds;
+	public AssetReference[] soundtracks;
+	private int _playingSoundtrack = 0;
 
 	public static AudioManager _audioManagerInstance;
 
@@ -37,6 +42,41 @@ public class AudioManager : MonoBehaviour
 
 		DontDestroyOnLoad(gameObject);
 		SetupAudioSources();
+	}
+
+	private void Start()
+	{
+		StartCoroutine(PlayAudioTest());
+	}
+
+	private IEnumerator PlayAudioTest()
+	{
+		//var newAudioSource = gameObject.AddComponent<AudioSource>();
+		//while (true)
+		//{
+		//	var currentOperationHandle = soundtracks[_playingSoundtrack].LoadAssetAsync<AudioClip>();
+		//	yield return currentOperationHandle;
+		//	var newAudioClip = currentOperationHandle.Result;
+		//	newAudioSource.clip = newAudioClip;
+		//	newAudioSource.Play();
+
+		//	yield return new WaitUntil(() => newAudioSource.isPlaying == false);
+
+		//	newAudioSource.clip = null;
+		//	Addressables.Release(currentOperationHandle);
+
+		//	_playingSoundtrack = (_playingSoundtrack + 1) % soundtracks.Length;
+		//}
+
+		//((AudioClip)addressableRef.Asset);
+		var newAudioSource = gameObject.AddComponent<AudioSource>();
+		var loading = soundtracks[0].LoadAssetAsync<AudioClip>();
+		yield return new WaitUntil(() => loading.IsDone);
+		newAudioSource.clip = loading.Result;
+		newAudioSource.volume = 1;
+		newAudioSource.loop = true;
+		newAudioSource.playOnAwake = true;
+		newAudioSource.Play();
 	}
 
 	//public void SetSoundsVolume(float amount, string typeOfAudio)
