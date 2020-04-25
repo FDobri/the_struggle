@@ -37,7 +37,7 @@ public class PlayerMovementController : MonoBehaviour
 		_jumpVector = new Vector2(0f, jumpForce);
 		_groundChecker = transform.GetComponentInChildren<PlayerGroundChecker>();
         _rigidbody = transform.GetComponent<Rigidbody2D>();
-        plejer = GameObject.FindWithTag("Player").GetComponent<Animator>();
+        plejer = GetComponentInChildren<Animator>();
     }
 
     public Direction GetPlayerDirection()

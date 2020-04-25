@@ -56,7 +56,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 0.2}
+  m_Size: {x: 6, y: 0.2}
   m_EdgeRadius: 0
 --- !u!114 &1790961554303790168
 MonoBehaviour:
@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedMultiplier: 4
   enemyModel: {fileID: 6116338823625804447}
+  enemyMovementController: {fileID: 4581857279068927097}
   inCombat: 0
 --- !u!1 &6116338823351429139
 GameObject:
@@ -265,7 +266,7 @@ GameObject:
   - component: {fileID: 4581857279068927097}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,6 +428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3cd12b1abb9ec44b45e76c655a73f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  model: {fileID: 6116338823625804440}
+  movementSpeed: 10
 --- !u!1 &6116338824430503016
 GameObject:
   m_ObjectHideFlags: 0
