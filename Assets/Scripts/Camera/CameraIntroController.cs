@@ -12,6 +12,7 @@ public class CameraIntroController : MonoBehaviour
     void Start()
     {
         Assert.IsNotNull(TintImageGameObject, "Tint Image Game Object must be set in editor");
+        TintImageGameObject.SetActive(true);
     }
 
     void Update()
