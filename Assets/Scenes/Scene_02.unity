@@ -5322,6 +5322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VORTextController
       objectReference: {fileID: 0}
+    - target: {fileID: 4390272532217284578, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: currentLevel
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4390272532217284579, guid: 756ae09d8b6be014d9e63d46d93d314b,
         type: 3}
       propertyPath: m_RootOrder
