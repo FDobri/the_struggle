@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
 {
 	public Sound[] sounds;
 	public AssetReference[] soundtracks;
-	private int _playingSoundtrack = 0;
+	//private int _playingSoundtrack = 0;
 
 	public static AudioManager _audioManagerInstance;
 
