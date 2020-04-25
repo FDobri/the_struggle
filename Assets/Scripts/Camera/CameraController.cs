@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 	public Transform player;
-	public float cameraDistance = 50.0f;
+	public float cameraDistance = 20.0f;
 
 	void Awake()
 	{
