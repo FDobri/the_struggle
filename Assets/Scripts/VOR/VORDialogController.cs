@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -25,7 +26,7 @@ public class VORDialogController : MonoBehaviour
         dialogs = new VORDialogs();
 
         currentLevelDialogs = dialogs.GetDialogsForLevel(currentLevel);
-        totalNumberOfTexts = dialogs.Dialogs_Level_1.Count;
+        totalNumberOfTexts = currentLevelDialogs.Count;
 
         if (totalNumberOfTexts < 1)
         {
@@ -48,6 +49,7 @@ public class VORDialogController : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
+
             currentTextAppearTime = currentLevelDialogs[currentText].AppearTime;
             TextObject.text = currentLevelDialogs[currentText].Text;
         }

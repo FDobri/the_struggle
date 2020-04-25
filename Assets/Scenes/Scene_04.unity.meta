@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animations/Textures.meta
+guid: f27578c2aa3166648ae33479770ad127
+folderAsset: yes
+=======
 guid: 4f17bb8eb031b48478145ef2497d6fa9
+>>>>>>> 3c5509b2a9dbe2d266ab8393ddbde12a51d6f9ce:Assets/Scenes/Scene_04.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
