@@ -16,22 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b0e4a7aa6facffe4ba4182edeb13b7af
-  m_SerializeEntries:
-  - m_GUID: 61c74fc2a85be5d4baadae977d79370e
-    m_Address: airplane_test
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - RemoteAudio
-  - m_GUID: 7e73237c80a624e44a853aeb30336fa2
-    m_Address: BackgroundMusic
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - RemoteAudio
-  - m_GUID: 94bde0c06d4d8dd4b9c47752623fbb7e
-    m_Address: BackgroundMusic
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - RemoteAudio
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 007aed3766b3bcb4eb827abdce7c6277, type: 2}
   m_SchemaSet:
