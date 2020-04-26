@@ -75,8 +75,8 @@ public class AudioManager : MonoBehaviour
 		newAudioSource.clip = loading.Result;
 		newAudioSource.volume = 1;
 		newAudioSource.loop = true;
-		newAudioSource.playOnAwake = true;
-		newAudioSource.Play();
+		//newAudioSource.playOnAwake = true;
+		//newAudioSource.Play();
 	}
 
 	//public void SetSoundsVolume(float amount, string typeOfAudio)
