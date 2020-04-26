@@ -17,7 +17,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -66,7 +66,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1.8
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -100,7 +100,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
-  - 6659d7cd92af9b848a0ef58a5ce8f5de
+  - fc8e4d712ee5bd441bfeb98272a0a11c
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -390,177 +390,177 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Female_GG_Pelvis
       parentName: Boss_FEMALE(Clone)
-      position: {x: 0.0091547305, y: 3.0554748, z: -0.098282255}
+      position: {x: 0.008239256, y: 2.749927, z: -0.08845402}
       rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
       scale: {x: 1, y: 1, z: 1}
     - name: Female_GG_Spine1
       parentName: Female_GG_Pelvis
-      position: {x: -0.12924561, y: 0.0528071, z: -0.000000026226044}
+      position: {x: -0.116321035, y: 0.04752639, z: -0.00000002360344}
       rotation: {x: 0.0000016987321, y: 0.000000014901159, z: 0.037080076, w: -0.9993123}
       scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
     - name: Female_GG_Spine2
       parentName: Female_GG_Spine1
-      position: {x: -0.54844177, y: 0, z: 0}
+      position: {x: -0.49359757, y: 0, z: 0}
       rotation: {x: -0.0000016391277, y: 0.00000008940697, z: -0.08666256, w: -0.9962378}
       scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
     - name: Female_GG_Spine3
       parentName: Female_GG_Spine2
-      position: {x: -0.45958343, y: 0, z: -5.9604643e-10}
+      position: {x: -0.4136251, y: 0, z: -5.364418e-10}
       rotation: {x: -0, y: -0, z: 0.061722964, w: 0.99809337}
       scale: {x: 1, y: 0.99999994, z: 0.9999999}
     - name: Female_GG_Ribcage
       parentName: Female_GG_Spine3
-      position: {x: -0.49387968, y: 0, z: 0}
+      position: {x: -0.44449168, y: 0, z: 0}
       rotation: {x: 0.000000059604645, y: 0.000000059604645, z: -0.112948, w: 0.99360096}
       scale: {x: 0.99999934, y: 0.9999993, z: 0.9999998}
     - name: Female_GG_Neck
       parentName: Female_GG_Ribcage
-      position: {x: -0.118350826, y: 0.03071454, z: -0.000000026226044}
+      position: {x: -0.106515735, y: 0.027643083, z: -0.00000002360344}
       rotation: {x: -0, y: -0.000000044703484, z: -0.106276736, w: 0.9943366}
       scale: {x: 1.0000001, y: 1, z: 1.0000001}
     - name: Female_GG_Head
       parentName: Female_GG_Neck
-      position: {x: -0.39032775, y: 0, z: 5.9604643e-10}
+      position: {x: -0.35129496, y: 0, z: 5.364418e-10}
       rotation: {x: -0, y: 0.000000044703484, z: 0.10627669, w: 0.9943366}
       scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
     - name: Female_GG_LCollarbone
       parentName: Female_GG_Ribcage
-      position: {x: -0.036744382, y: 0.03096999, z: 0.17916265}
+      position: {x: -0.033069942, y: 0.027872989, z: 0.16124637}
       rotation: {x: -0.06628613, y: 0.80958253, z: 0.079737395, w: 0.57777536}
       scale: {x: 1, y: 1, z: 1.0000002}
     - name: Female_GG_LUpperarm
       parentName: Female_GG_LCollarbone
-      position: {x: -0.4509169, y: 0, z: 0.00000061035155}
+      position: {x: -0.40582517, y: 0, z: 0.0000005493164}
       rotation: {x: 0.11939739, y: -0.13695268, z: -0.003869039, w: 0.983348}
       scale: {x: 1.0000002, y: 0.9999999, z: 0.99999976}
     - name: Female_GG_LForearm
       parentName: Female_GG_LUpperarm
-      position: {x: -0.7199634, y: 0, z: 0}
+      position: {x: -0.647967, y: 0, z: 0}
       rotation: {x: -0.015847355, y: -0.030585721, z: -0.028677171, w: 0.99899507}
       scale: {x: 1, y: 1.0000004, z: 1.0000004}
     - name: Female_GG_LPalm
       parentName: Female_GG_LForearm
-      position: {x: -0.69636005, y: 0.0000003814697, z: -0.00000061035155}
+      position: {x: -0.626724, y: 0.00000034332274, z: -0.0000005493164}
       rotation: {x: -0.7099983, y: -0.08915593, z: 0.22855768, w: 0.66008705}
       scale: {x: 0.99999946, y: 1.0000004, z: 1.0000005}
     - name: Female_GG_LDigit11 1
       parentName: Female_GG_LPalm
-      position: {x: -0.062171936, y: -0.026246337, z: 0.16312332}
+      position: {x: -0.05595474, y: -0.023621703, z: 0.146811}
       rotation: {x: 0.07430436, y: 0.24185526, z: -0.05240739, w: 0.9660427}
       scale: {x: 1.0000015, y: 1.0000001, z: 0.99999905}
     - name: Female_GG_LDigit12
       parentName: Female_GG_LDigit11 1
-      position: {x: -0.17265625, y: -0.00000061035155, z: -0.00000022888183}
+      position: {x: -0.15539062, y: -0.0000005493164, z: -0.00000020599364}
       rotation: {x: -0.0000014975651, y: -0.032583695, z: 0.00000075343917, w: 0.999469}
       scale: {x: 1.0000018, y: 0.9999998, z: 0.9999979}
     - name: Female_GG_LDigit13
       parentName: Female_GG_LDigit12
-      position: {x: -0.15086532, y: -0.0000009155273, z: 0}
+      position: {x: -0.13577877, y: -0.0000008239746, z: 0}
       rotation: {x: -0.00000017242283, y: -0.11047488, z: -0.00000057541246, w: 0.9938789}
       scale: {x: 1.0000021, y: 0.99999994, z: 0.999998}
     - name: Female_GG_LDigit21
       parentName: Female_GG_LPalm
-      position: {x: -0.2838728, y: 0.017263794, z: -0.000000076293944}
+      position: {x: -0.2554855, y: 0.015537415, z: -0.00000006866455}
       rotation: {x: 0.0013102881, y: 0.1302027, z: -0.062719636, w: 0.9895008}
       scale: {x: 0.9999994, y: 1.0000007, z: 1.0000004}
     - name: Female_GG_LDigit22
       parentName: Female_GG_LDigit21
-      position: {x: -0.16565597, y: -0.0000012207031, z: -0.000000114440915}
+      position: {x: -0.14909036, y: -0.0000010986328, z: -0.00000010299682}
       rotation: {x: 0.0000035912938, y: 0.0000008791679, z: 0.04057496, w: 0.9991765}
       scale: {x: 1.0000005, y: 0.99999887, z: 1.0000006}
     - name: Female_GG_LDigit23
       parentName: Female_GG_LDigit22
-      position: {x: -0.081662595, y: -0.00000061035155, z: 0}
+      position: {x: -0.073496334, y: -0.0000005493164, z: 0}
       rotation: {x: -0.0000025714219, y: -0.00000023599762, z: -0.0073004942, w: 0.99997336}
       scale: {x: 1.0000006, y: 0.9999989, z: 1.0000001}
     - name: Female_GG_RCollarbone
       parentName: Female_GG_Ribcage
-      position: {x: -0.036744382, y: 0.03096999, z: -0.17916265}
+      position: {x: -0.033069942, y: 0.027872989, z: -0.16124637}
       rotation: {x: -0.06628601, y: 0.80958295, z: -0.07973761, w: -0.5777746}
       scale: {x: 1, y: 1, z: 0.9999999}
     - name: Female_GG_RUpperarm
       parentName: Female_GG_RCollarbone
-      position: {x: -0.45091704, y: -0.000000076293944, z: 0.00000030517577}
+      position: {x: -0.40582532, y: -0.00000006866455, z: 0.0000002746582}
       rotation: {x: -0.11939749, y: 0.1369531, z: -0.0038689733, w: 0.98334795}
       scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
     - name: Female_GG_RForearm
       parentName: Female_GG_RUpperarm
-      position: {x: -0.7199628, y: 0.000000019073486, z: 0.00000030517577}
+      position: {x: -0.64796644, y: 0.000000017166137, z: 0.0000002746582}
       rotation: {x: 0.015847476, y: 0.03058659, z: -0.028677339, w: 0.998995}
       scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
     - name: Female_GG_RPalm
       parentName: Female_GG_RForearm
-      position: {x: -0.6963599, y: 0.00000030517577, z: 0.00000030517577}
+      position: {x: -0.6267238, y: 0.0000002746582, z: 0.0000002746582}
       rotation: {x: 0.7099985, y: 0.08915598, z: 0.22855772, w: 0.6600869}
       scale: {x: 0.9999996, y: 1.0000002, z: 0.9999998}
     - name: Female_GG_RDigit11 1
       parentName: Female_GG_RPalm
-      position: {x: -0.062171783, y: -0.026246337, z: -0.1631232}
+      position: {x: -0.055954605, y: -0.023621703, z: -0.14681087}
       rotation: {x: -0.07430489, y: -0.24185517, z: -0.052405875, w: 0.96604276}
       scale: {x: 1.0000006, y: 1, z: 1.0000001}
     - name: Female_GG_RDigit12
       parentName: Female_GG_RDigit11 1
-      position: {x: -0.17265609, y: -0.00000030517577, z: 0.00000015258789}
+      position: {x: -0.15539047, y: -0.0000002746582, z: 0.0000001373291}
       rotation: {x: 0.0000013709061, y: 0.0325837, z: 0.00000071804936, w: 0.999469}
       scale: {x: 1.0000006, y: 0.9999997, z: 0.9999984}
     - name: Female_GG_RDigit13
       parentName: Female_GG_RDigit12
-      position: {x: -0.15086487, y: -0.00000061035155, z: 0.000000038146972}
+      position: {x: -0.13577837, y: -0.0000005493164, z: 0.000000034332274}
       rotation: {x: 0.00000012907994, y: 0.11047474, z: -0.0000005638581, w: 0.9938789}
       scale: {x: 1.0000012, y: 1, z: 0.99999917}
     - name: Female_GG_RDigit21
       parentName: Female_GG_RPalm
-      position: {x: -0.283873, y: 0.017264098, z: 0.00000022888183}
+      position: {x: -0.25548568, y: 0.015537687, z: 0.00000020599364}
       rotation: {x: -0.0013112418, y: -0.13020332, z: -0.06271798, w: 0.9895008}
       scale: {x: 0.9999997, y: 1.0000006, z: 0.99999994}
     - name: Female_GG_RDigit22
       parentName: Female_GG_RDigit21
-      position: {x: -0.16565582, y: -0.00000061035155, z: 0.000000076293944}
+      position: {x: -0.14909023, y: -0.0000005493164, z: 0.00000006866455}
       rotation: {x: -0.0000035685937, y: 0.00000046193577, z: 0.040574677, w: 0.99917656}
       scale: {x: 1.0000011, y: 0.9999997, z: 1.0000002}
     - name: Female_GG_RDigit23
       parentName: Female_GG_RDigit22
-      position: {x: -0.081662595, y: -0.00000030517577, z: -0.000000076293944}
+      position: {x: -0.073496334, y: -0.0000002746582, z: -0.00000006866455}
       rotation: {x: 0.0000025369882, y: 0.00000016268535, z: -0.0073003666, w: 0.99997336}
       scale: {x: 1.000001, y: 0.9999996, z: 1.0000005}
     - name: Female_GG_LThigh
       parentName: Female_GG_Pelvis
-      position: {x: 0.12866943, y: 0.12853931, z: 0.33948746}
+      position: {x: 0.115802474, y: 0.11568537, z: 0.30553868}
       rotation: {x: -0.0020972788, y: 0.99885494, z: 0.040024668, w: 0.026122164}
       scale: {x: 1.0000005, y: 1.0000001, z: 1.0000005}
     - name: Female_GG_LCalf
       parentName: Female_GG_LThigh
-      position: {x: -1.2155337, y: 0.00000032424927, z: -0.000004043579}
+      position: {x: -1.0939803, y: 0.00000029182434, z: -0.0000036392207}
       rotation: {x: -0.0003154245, y: 0.007430575, z: 0.10542167, w: 0.99439985}
       scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
     - name: Female_GG_LFoot
       parentName: Female_GG_LCalf
-      position: {x: -1.5555482, y: -0.000000019073486, z: 0.000000038146972}
+      position: {x: -1.3999933, y: -0.000000017166137, z: 0.000000034332274}
       rotation: {x: 0.025024196, y: 0.038280196, z: -0.69873106, w: 0.7139211}
       scale: {x: 0.9999996, y: 0.9999998, z: 0.99999994}
     - name: Female_GG_LDigit11
       parentName: Female_GG_LFoot
-      position: {x: -0.49600005, y: 0.000000009536743, z: 0}
+      position: {x: -0.44640005, y: 0.0000000085830685, z: 0}
       rotation: {x: 0.0000620447, y: -0.000554407, z: -0.11197562, w: 0.9937109}
       scale: {x: 0.99999964, y: 0.99999994, z: 0.99999976}
     - name: Female_GG_RThigh
       parentName: Female_GG_Pelvis
-      position: {x: 0.12866943, y: 0.12853931, z: -0.33948746}
+      position: {x: 0.115802474, y: 0.11568537, z: -0.30553868}
       rotation: {x: -0.0020976365, y: 0.99885523, z: -0.040019333, w: -0.026120782}
       scale: {x: 0.9999999, y: 1.0000001, z: 1}
     - name: Female_GG_RCalf
       parentName: Female_GG_RThigh
-      position: {x: -1.2155339, y: 0.00000032424927, z: 0.000004043579}
+      position: {x: -1.0939804, y: 0.00000029182434, z: 0.0000036392207}
       rotation: {x: 0.00034861037, y: -0.007647086, z: 0.10562559, w: 0.9943765}
       scale: {x: 1.0000004, y: 0.9999997, z: 0.9999999}
     - name: Female_GG_RFoot
       parentName: Female_GG_RCalf
-      position: {x: -1.555549, y: -0.0000033950805, z: -0.0000028991699}
+      position: {x: -1.3999941, y: -0.0000030555725, z: -0.0000026092528}
       rotation: {x: -0.02467683, y: -0.037601095, z: -0.69890815, w: 0.71379596}
       scale: {x: 0.99999905, y: 1.0000002, z: 1.0000001}
     - name: Female_GG_RDigit11
       parentName: Female_GG_RFoot
-      position: {x: -0.49600014, y: 0.000000019073486, z: -0.000000038146972}
+      position: {x: -0.44640014, y: 0.000000017166137, z: -0.000000034332274}
       rotation: {x: 0.000019793399, y: -0.00017325951, z: -0.11195001, w: 0.9937138}
       scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
     armTwist: 0.5
@@ -570,7 +570,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2
+    globalScale: 1.8
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
