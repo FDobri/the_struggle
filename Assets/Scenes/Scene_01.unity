@@ -6661,6 +6661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_New_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1352877560935312612, guid: 24a1e036b3af9154f8bdcc681b642bf4,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1352877560935312613, guid: 24a1e036b3af9154f8bdcc681b642bf4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7576,6 +7581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: movementSpeed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 843304218250647454, guid: f8ac94b28e97e834e8bf025172aff0fb,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 843304218250647455, guid: f8ac94b28e97e834e8bf025172aff0fb,
         type: 3}
