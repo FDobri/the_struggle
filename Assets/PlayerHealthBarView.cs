@@ -12,6 +12,7 @@ public class PlayerHealthBarView : MonoBehaviour
     void Start()
     {
         prevPlayerHP = playerAttributes.currentHealth;
+        // TODO: get iz scene, kao i kamera
     }
 
     // Update is called once per frame
