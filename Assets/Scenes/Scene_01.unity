@@ -390,7 +390,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerAttributes
       value: 
-      objectReference: {fileID: 42844357}
+      objectReference: {fileID: 0}
     - target: {fileID: 3866233550833959417, guid: ea33be67ceceed446aca629947556578,
         type: 3}
       propertyPath: UICanvas
@@ -1379,7 +1379,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &332323695
 PrefabInstance:
@@ -1970,7 +1970,7 @@ PrefabInstance:
     - target: {fileID: 657143319626546608, guid: 1da9870d2d0526745a086da842436260,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 657143319626546608, guid: 1da9870d2d0526745a086da842436260,
         type: 3}
@@ -1991,6 +1991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player_New
+      objectReference: {fileID: 0}
+    - target: {fileID: 657143319626546622, guid: 1da9870d2d0526745a086da842436260,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da9870d2d0526745a086da842436260, type: 3}
@@ -4383,7 +4388,7 @@ PrefabInstance:
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6666667
+      value: 0.673
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
@@ -4882,13 +4887,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22b9e3107ecbfe145809a06d5df9aca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  femaleCharacterEvil: {fileID: 657143319626546622, guid: 61e8fb7c8d0a76548930478d444986b9,
+  femaleCharacterEvil: {fileID: 2902464314763846473, guid: 2204bf48a05008040b7bf5541eed33eb,
     type: 3}
-  femaleCharacterGood: {fileID: 657143319626546622, guid: 1ae2b38b9d127f248bbdcaeb26806d46,
+  femaleCharacterGood: {fileID: 7227450617463026378, guid: 7748b66bfbf0f9c438463e1c2c7c5c25,
     type: 3}
-  maleCharacterEvil: {fileID: 657143319626546622, guid: 4a1250241c9e5a646849d595ef726f22,
+  maleCharacterEvil: {fileID: 3058693028603920437, guid: a6e6a5c48c292634998674838b202cf9,
     type: 3}
-  maleCharacterGood: {fileID: 657143319626546622, guid: 1da9870d2d0526745a086da842436260,
+  maleCharacterGood: {fileID: 5780027587315537276, guid: 81f3c167794662c409ab88adab3c46b4,
     type: 3}
 --- !u!1001 &1021201978
 PrefabInstance:
