@@ -42,6 +42,7 @@ public class VORDialogs
 
         Dialogs_Level_2.Add(new VORText("There has been a breach of some kind...", 4.0f));
         Dialogs_Level_2.Add(new VORText("It's like the universes are mixing...", 4.0f));
+        Dialogs_Level_2.Add(new VORText("Your look is also different...new haircut? xD", 4.0f));
         Dialogs_Level_2.Add(new VORText("It feels like we are inside of your emotions, but bad ones...", 4.0f));
         Dialogs_Level_2.Add(new VORText("Your negative emotions will spawn and try to hurt you...", 4.0f));
         Dialogs_Level_2.Add(new VORText("It's just like listening to Katy Perry..", 4.0f));
