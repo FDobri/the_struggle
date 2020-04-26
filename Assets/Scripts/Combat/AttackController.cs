@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class AttackController : MonoBehaviour
 {
 	private const float DAMAGE_HIT_BOX_DISTANCE = 2f;
 	private const float STANDARD_COOLDOWN = 1f;
 
+	public float attackDelay = 0.5f;
 	public float attackCooldown = STANDARD_COOLDOWN;
 	public GameObject hitBoxLocation;
 	public GameObject hitBoxPrefab;
@@ -28,11 +30,17 @@ public class AttackController : MonoBehaviour
 					animator.SetTrigger("attack02");
 				}
 			}
-			//Debug.Log(transform.name + " attacked!");
-			GameObject hitBox = Instantiate(hitBoxPrefab, hitBoxLocation.transform);
-			hitBox.GetComponent<HitBoxController>().Activate();
+
+			StartCoroutine(SpawnHitBoxAfterTime());
 			attackCooldown = STANDARD_COOLDOWN;
 			canAttack = false;
 		}
+	}
+
+	IEnumerator SpawnHitBoxAfterTime()
+	{
+		yield return new WaitForSeconds(attackDelay);
+		GameObject hitBox = Instantiate(hitBoxPrefab, hitBoxLocation.transform);
+		hitBox.GetComponent<HitBoxController>().Activate();
 	}
 }

@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumHealth: 100
   currentHealth: 0
-  damage: 40
+  damage: 20
 --- !u!114 &1352877560935312612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f10c9e7d21523f642977fbdc34a29dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 1.5
+  attackDelay: 0.5
+  attackCooldown: 0.5
   hitBoxLocation: {fileID: 1904116689570792889}
   hitBoxPrefab: {fileID: 5427648450314942679, guid: 33378bb81ced9774091ba418f075cd70,
     type: 3}
