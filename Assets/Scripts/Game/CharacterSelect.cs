@@ -38,21 +38,25 @@ public class CharacterSelect : MonoBehaviour
 		Color32 inactiveColor = new Color32(65, 65, 65, 155);
 		Color32 activeColor = new Color32(255, 255, 255, 255);
 
+		Color32 inactiveColorText = new Color32(65, 65, 65, 155);
+		Color32 activeColorText = new Color32(77, 51, 8, 255);
+
+
 		if (type == "Female")
 		{
 			characterLeft.GetComponent<Image>().color = inactiveColor;
-			characterLeft.GetComponentInChildren<Text>().color = inactiveColor;
+			characterLeft.GetComponentInChildren<Text>().color = inactiveColorText;
 
 			characterRight.GetComponent<Image>().color = activeColor;
-			characterRight.GetComponentInChildren<Text>().color = activeColor;
+			characterRight.GetComponentInChildren<Text>().color = activeColorText;
 		}
 		else
 		{
 			characterLeft.GetComponent<Image>().color = activeColor;
-			characterLeft.GetComponentInChildren<Text>().color = activeColor;
+			characterLeft.GetComponentInChildren<Text>().color = activeColorText;
 
 			characterRight.GetComponent<Image>().color = inactiveColor;
-			characterRight.GetComponentInChildren<Text>().color = inactiveColor;
+			characterRight.GetComponentInChildren<Text>().color = inactiveColorText;
 		}
 	}
 }
