@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87fa011206a898f4b807c3de94a3ac4b
+guid: 5dacb9331fc3ce044a68baad33e1468b
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -42,7 +42,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 0
       firstFrame: 0
-      lastFrame: 48
+      lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -70,8 +70,8 @@ ModelImporter:
       name: attack
       takeName: Take 001
       internalID: 0
-      firstFrame: 49
-      lastFrame: 80
+      firstFrame: 36
+      lastFrame: 70
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -98,7 +98,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.5
+    globalScale: 1.51
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -132,7 +132,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
-  - 745abca7788845d4086c9e43daf25b2c
+  - dea4fe68b64778a47a4541527d24c1a3
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -145,7 +145,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1.5
+    globalScale: 1.51
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

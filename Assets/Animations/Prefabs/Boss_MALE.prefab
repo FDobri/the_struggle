@@ -1,0 +1,1255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125901638283150042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9145870504030647216}
+  m_Layer: 0
+  m_Name: Boss_MaleRCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9145870504030647216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125901638283150042}
+  m_LocalRotation: {x: -0.057406534, y: 0.86796516, z: -0.083650194, w: -0.4861518}
+  m_LocalPosition: {x: -0.004332275, y: 0.030970039, z: -0.36558318}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3154419368754866016}
+  m_Father: {fileID: 4036020513890176985}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &539395808884652971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302434967206592278}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302434967206592278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539395808884652971}
+  m_LocalRotation: {x: 0.20335409, y: 0.36598, z: 0.31082276, w: 0.85328484}
+  m_LocalPosition: {x: -0.007528381, y: -0.009087524, z: 0.1317463}
+  m_LocalScale: {x: 1.0000014, y: 0.99999833, z: 1.0000004}
+  m_Children:
+  - {fileID: 3624209814085496743}
+  m_Father: {fileID: 7165823874284731122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &727489039995588839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188319237613791462}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1188319237613791462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727489039995588839}
+  m_LocalRotation: {x: -0.00000020633779, y: -0.00000024968867, z: 0.29108855, w: 0.95669615}
+  m_LocalPosition: {x: -0.2838728, y: 0.017265014, z: -0.000000095367426}
+  m_LocalScale: {x: 1.0000019, y: 0.99999815, z: 1.0000001}
+  m_Children:
+  - {fileID: 7594672982511511549}
+  m_Father: {fileID: 7165823874284731122}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1119709199163619887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4151127910375305150}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4151127910375305150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119709199163619887}
+  m_LocalRotation: {x: 0.000095288546, y: -0.0008489682, z: -0.112046115, w: 0.99370265}
+  m_LocalPosition: {x: -0.49600008, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 7182907361303307324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1160949106251290614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755305468222084942}
+  m_Layer: 0
+  m_Name: Boss_MaleRCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755305468222084942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160949106251290614}
+  m_LocalRotation: {x: 0.00068474247, y: -0.0018355551, z: 0.0585895, w: 0.9982802}
+  m_LocalPosition: {x: -1.2909307, y: -0.000000114440915, z: -0.0000024414062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1876424732447140248}
+  m_Father: {fileID: 3966983907564284919}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1763580875015922802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3085447024994003848}
+  m_Layer: 0
+  m_Name: Boss_MalePelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3085447024994003848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763580875015922802}
+  m_LocalRotation: {x: 0.49912703, y: -0.50087154, z: -0.49912694, w: 0.5008715}
+  m_LocalPosition: {x: 0.0091547305, y: 3.0554748, z: -0.098282255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2861829311512490170}
+  - {fileID: 3966983907564284919}
+  - {fileID: 8288600689392662501}
+  m_Father: {fileID: 1659084388845355260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1966689446026450605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3181215369479535670}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3181215369479535670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966689446026450605}
+  m_LocalRotation: {x: -0.20335372, y: -0.36598048, z: 0.31082246, w: 0.8532848}
+  m_LocalPosition: {x: -0.0075286864, y: -0.009087524, z: -0.13174623}
+  m_LocalScale: {x: 0.9999986, y: 1.0000015, z: 0.9999997}
+  m_Children:
+  - {fileID: 1226221555568503485}
+  m_Father: {fileID: 1926219820136838322}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2048678447576851577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3154419368754866016}
+  m_Layer: 0
+  m_Name: Boss_MaleRUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3154419368754866016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048678447576851577}
+  m_LocalRotation: {x: -0.11825147, y: -0.057500634, z: 0.0037710872, w: 0.9913103}
+  m_LocalPosition: {x: -0.43689573, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 5897497970967042740}
+  m_Father: {fileID: 9145870504030647216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2305754700631624797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876424732447140248}
+  m_Layer: 0
+  m_Name: Boss_MaleRFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1876424732447140248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305754700631624797}
+  m_LocalRotation: {x: 0.08212847, y: -0.027763639, z: -0.65326416, w: 0.7521503}
+  m_LocalPosition: {x: -1.4807953, y: 0.000000010728836, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 0.99999714, z: 1.0000026}
+  m_Children:
+  - {fileID: 1347652667306150153}
+  m_Father: {fileID: 755305468222084942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2404106014657934063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659084388845355260}
+  - component: {fileID: 8758449830995602822}
+  m_Layer: 0
+  m_Name: Boss_MALE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1659084388845355260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404106014657934063}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3085447024994003848}
+  - {fileID: 7238271019730772783}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!95 &8758449830995602822
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404106014657934063}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 78a0784752c1ef94cb2321243348b93c, type: 3}
+  m_Controller: {fileID: 9100000, guid: 553bdf9ef58caae468fac0b52044f68b, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2613397387281923546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897497970967042740}
+  m_Layer: 0
+  m_Name: Boss_MaleRForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897497970967042740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2613397387281923546}
+  m_LocalRotation: {x: 0.011115937, y: 0.016714139, z: -0.12838575, w: 0.9915212}
+  m_LocalPosition: {x: -0.7429553, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1926219820136838322}
+  m_Father: {fileID: 3154419368754866016}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3037873186650115687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3966983907564284919}
+  m_Layer: 0
+  m_Name: Boss_MaleRThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3966983907564284919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3037873186650115687}
+  m_LocalRotation: {x: -0.0022290444, y: 0.9898298, z: -0.1215873, w: -0.07381544}
+  m_LocalPosition: {x: 0.12866943, y: 0.12853931, z: -0.33948746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 755305468222084942}
+  m_Father: {fileID: 3085447024994003848}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3243326757501678155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4416590337051252921}
+  m_Layer: 0
+  m_Name: Boss_MaleLCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416590337051252921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3243326757501678155}
+  m_LocalRotation: {x: -0.057406247, y: 0.86796516, z: 0.08364995, w: 0.48615196}
+  m_LocalPosition: {x: -0.004332275, y: 0.030970039, z: 0.36558318}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3241437874539886255}
+  m_Father: {fileID: 4036020513890176985}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3352100219380139781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1926219820136838322}
+  m_Layer: 0
+  m_Name: Boss_MaleRPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1926219820136838322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352100219380139781}
+  m_LocalRotation: {x: 0.7235052, y: -0.002393203, z: 0.113940276, w: 0.6808467}
+  m_LocalPosition: {x: -0.7961876, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3181215369479535670}
+  - {fileID: 2183489296778146357}
+  m_Father: {fileID: 5897497970967042740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3369396750716895376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599430225423515287}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1599430225423515287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3369396750716895376}
+  m_LocalRotation: {x: -0.0000000553282, y: 0.18085612, z: -0.0000019443078, w: 0.9835096}
+  m_LocalPosition: {x: -0.15786438, y: 0.00000061035155, z: 0}
+  m_LocalScale: {x: 0.9999991, y: 1.0000015, z: 0.99999905}
+  m_Children: []
+  m_Father: {fileID: 1226221555568503485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3692259343949786916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347652667306150153}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1347652667306150153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3692259343949786916}
+  m_LocalRotation: {x: -0.000018916353, y: 0.00017094925, z: -0.11194206, w: 0.99371475}
+  m_LocalPosition: {x: -0.49600014, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1876424732447140248}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3799686713801447637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7494546751770257301}
+  m_Layer: 0
+  m_Name: Boss_MaleHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7494546751770257301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3799686713801447637}
+  m_LocalRotation: {x: -4.1466122e-10, y: 0.0000000118137065, z: 0.106276795, w: 0.9943366}
+  m_LocalPosition: {x: -0.39032775, y: 0, z: 5.9604643e-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5260422160974569582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4375181759603078484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226221555568503485}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1226221555568503485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4375181759603078484}
+  m_LocalRotation: {x: 0.00000083801444, y: 0.15464664, z: -0.00000082497513, w: 0.9879699}
+  m_LocalPosition: {x: -0.1637439, y: 0.00000030517577, z: 0.000000076293944}
+  m_LocalScale: {x: 0.9999985, y: 1.0000015, z: 0.9999998}
+  m_Children:
+  - {fileID: 1599430225423515287}
+  m_Father: {fileID: 3181215369479535670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4380173752236905512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7238271019730772783}
+  - component: {fileID: 6676807902356359958}
+  m_Layer: 0
+  m_Name: character_MAIN_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7238271019730772783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4380173752236905512}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1659084388845355260}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &6676807902356359958
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4380173752236905512}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2e7b8c991feee584e8ed729e4ccf2dee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -4871551525462198585, guid: 78a0784752c1ef94cb2321243348b93c, type: 3}
+  m_Bones:
+  - {fileID: 7494546751770257301}
+  - {fileID: 5260422160974569582}
+  - {fileID: 4036020513890176985}
+  - {fileID: 2792808606014117931}
+  - {fileID: 4416590337051252921}
+  - {fileID: 6516907059022244958}
+  - {fileID: 3241437874539886255}
+  - {fileID: 8288600689392662501}
+  - {fileID: 3457493043992313926}
+  - {fileID: 7165823874284731122}
+  - {fileID: 1302434967206592278}
+  - {fileID: 3624209814085496743}
+  - {fileID: 3085447024994003848}
+  - {fileID: 2861829311512490170}
+  - {fileID: 3966983907564284919}
+  - {fileID: 4395040931041194875}
+  - {fileID: 755305468222084942}
+  - {fileID: 7182907361303307324}
+  - {fileID: 4151127910375305150}
+  - {fileID: 1876424732447140248}
+  - {fileID: 1188319237613791462}
+  - {fileID: 7594672982511511549}
+  - {fileID: 3837806846178407028}
+  - {fileID: 6114232537915377103}
+  - {fileID: 9145870504030647216}
+  - {fileID: 3154419368754866016}
+  - {fileID: 5897497970967042740}
+  - {fileID: 3181215369479535670}
+  - {fileID: 1926219820136838322}
+  - {fileID: 1226221555568503485}
+  - {fileID: 1347652667306150153}
+  - {fileID: 2183489296778146357}
+  - {fileID: 3048443482762457795}
+  - {fileID: 4140987781068953031}
+  - {fileID: 1599430225423515287}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3085447024994003848}
+  m_AABB:
+    m_Center: {x: 0.16954267, y: 0.07015854, z: 0.009155154}
+    m_Extent: {x: 3.1023355, y: 0.9270422, z: 2.4044394}
+  m_DirtyAABB: 0
+--- !u!1 &4523569487078635266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2183489296778146357}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2183489296778146357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523569487078635266}
+  m_LocalRotation: {x: -0.00000024638322, y: -0.00000013726813, z: 0.29108784, w: 0.95669633}
+  m_LocalPosition: {x: -0.283873, y: 0.017266234, z: -0.0000001335144}
+  m_LocalScale: {x: 0.99999815, y: 1.0000018, z: 0.99999994}
+  m_Children:
+  - {fileID: 3048443482762457795}
+  m_Father: {fileID: 1926219820136838322}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4613079289200946164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6114232537915377103}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6114232537915377103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4613079289200946164}
+  m_LocalRotation: {x: 0.0000006256029, y: -0.18085517, z: 0.0000013422709, w: 0.9835098}
+  m_LocalPosition: {x: -0.15786499, y: -0.00000061035155, z: 0.00000015258789}
+  m_LocalScale: {x: 1.0000008, y: 0.99999845, z: 1.0000008}
+  m_Children: []
+  m_Father: {fileID: 3624209814085496743}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4965720492143511340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3241437874539886255}
+  m_Layer: 0
+  m_Name: Boss_MaleLUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3241437874539886255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4965720492143511340}
+  m_LocalRotation: {x: 0.11825142, y: 0.057500232, z: 0.003771224, w: 0.9913103}
+  m_LocalPosition: {x: -0.43689573, y: -0.000000076293944, z: -0.00000030517577}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3457493043992313926}
+  m_Father: {fileID: 4416590337051252921}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5339973828166661947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3624209814085496743}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3624209814085496743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339973828166661947}
+  m_LocalRotation: {x: 0.000000748884, y: -0.15464625, z: 0.0000017008934, w: 0.98796993}
+  m_LocalPosition: {x: -0.1637442, y: -0.00000030517577, z: 0}
+  m_LocalScale: {x: 1.0000015, y: 0.99999833, z: 1.0000002}
+  m_Children:
+  - {fileID: 6114232537915377103}
+  m_Father: {fileID: 1302434967206592278}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6348168585692849813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4395040931041194875}
+  m_Layer: 0
+  m_Name: Boss_MaleLCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395040931041194875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348168585692849813}
+  m_LocalRotation: {x: -0.0006738963, y: 0.0016584955, z: 0.058574725, w: 0.9982814}
+  m_LocalPosition: {x: -1.2909307, y: -0.0000001335144, z: 0.0000024414062}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 7182907361303307324}
+  m_Father: {fileID: 2861829311512490170}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6357583856887101304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5260422160974569582}
+  m_Layer: 0
+  m_Name: Boss_MaleNeck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5260422160974569582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357583856887101304}
+  m_LocalRotation: {x: 4.1465864e-10, y: -0.000000011813705, z: -0.106276795, w: 0.9943366}
+  m_LocalPosition: {x: -0.118350826, y: 0.03071454, z: -0.000000026226044}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 7494546751770257301}
+  m_Father: {fileID: 4036020513890176985}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6401944619015321867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8288600689392662501}
+  m_Layer: 0
+  m_Name: Boss_MaleSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8288600689392662501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6401944619015321867}
+  m_LocalRotation: {x: 0.000000010857464, y: -0.00000011470128, z: -0.037080128, w: 0.9993123}
+  m_LocalPosition: {x: -0.12924561, y: 0.0528071, z: -0.000000026226044}
+  m_LocalScale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
+  m_Children:
+  - {fileID: 6516907059022244958}
+  m_Father: {fileID: 3085447024994003848}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6537496143075655961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7165823874284731122}
+  m_Layer: 0
+  m_Name: Boss_MaleLPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7165823874284731122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6537496143075655961}
+  m_LocalRotation: {x: -0.7235052, y: 0.0023938704, z: 0.11394116, w: 0.6808465}
+  m_LocalPosition: {x: -0.7961877, y: 0.000000114440915, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
+  m_Children:
+  - {fileID: 1302434967206592278}
+  - {fileID: 1188319237613791462}
+  m_Father: {fileID: 3457493043992313926}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6850229277736368491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3048443482762457795}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3048443482762457795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6850229277736368491}
+  m_LocalRotation: {x: -0.0000028333386, y: -0.00000030368147, z: 0.06096384, w: 0.99814}
+  m_LocalPosition: {x: -0.16565551, y: 0.00000030517577, z: -0.000000076293944}
+  m_LocalScale: {x: 0.999998, y: 1.0000019, z: 0.99999994}
+  m_Children:
+  - {fileID: 4140987781068953031}
+  m_Father: {fileID: 2183489296778146357}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7156156577322914862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6516907059022244958}
+  m_Layer: 0
+  m_Name: Boss_MaleSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6516907059022244958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156156577322914862}
+  m_LocalRotation: {x: -0.0000000047100768, y: 0.0000000798723, z: 0.0866626, w: 0.99623775}
+  m_LocalPosition: {x: -0.54844177, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2792808606014117931}
+  m_Father: {fileID: 8288600689392662501}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7259769693810185341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4036020513890176985}
+  m_Layer: 0
+  m_Name: Boss_MaleRibcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4036020513890176985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259769693810185341}
+  m_LocalRotation: {x: -2.3092517e-11, y: -0.000000003921308, z: -0.1129479, w: 0.9936009}
+  m_LocalPosition: {x: -0.49387968, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999994, y: 0.9999994, z: 0.9999999}
+  m_Children:
+  - {fileID: 4416590337051252921}
+  - {fileID: 5260422160974569582}
+  - {fileID: 9145870504030647216}
+  m_Father: {fileID: 2792808606014117931}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7367344954552971674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3837806846178407028}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3837806846178407028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7367344954552971674}
+  m_LocalRotation: {x: -0.0000029721991, y: 0.00000021914165, z: -0.007299595, w: 0.99997336}
+  m_LocalPosition: {x: -0.081662595, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 7594672982511511549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7548338598330427583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7182907361303307324}
+  m_Layer: 0
+  m_Name: Boss_MaleLFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7182907361303307324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7548338598330427583}
+  m_LocalRotation: {x: -0.081795074, y: 0.028416172, z: -0.6532196, w: 0.75220096}
+  m_LocalPosition: {x: -1.4807953, y: 0.000000007152557, z: -0.000000076293944}
+  m_LocalScale: {x: 0.99999994, y: 1.0000008, z: 0.99999917}
+  m_Children:
+  - {fileID: 4151127910375305150}
+  m_Father: {fileID: 4395040931041194875}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7659181572899746062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4140987781068953031}
+  m_Layer: 0
+  m_Name: Boss_MaleRDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140987781068953031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7659181572899746062}
+  m_LocalRotation: {x: 0.0000019423635, y: 0.0000006116849, z: -0.0073010908, w: 0.99997336}
+  m_LocalPosition: {x: -0.08166229, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 0.99999803, y: 1.0000019, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 3048443482762457795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8073732503266492832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3457493043992313926}
+  m_Layer: 0
+  m_Name: Boss_MaleLForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3457493043992313926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8073732503266492832}
+  m_LocalRotation: {x: -0.011116118, y: -0.016714096, z: -0.12838574, w: 0.9915212}
+  m_LocalPosition: {x: -0.74295545, y: -0.000000038146972, z: -0.00000030517577}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7165823874284731122}
+  m_Father: {fileID: 3241437874539886255}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8406043306126680299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2861829311512490170}
+  m_Layer: 0
+  m_Name: Boss_MaleLThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2861829311512490170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8406043306126680299}
+  m_LocalRotation: {x: -0.0022253792, y: 0.98982984, z: 0.1215876, w: 0.07381361}
+  m_LocalPosition: {x: 0.12866943, y: 0.12853931, z: 0.33948746}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 4395040931041194875}
+  m_Father: {fileID: 3085447024994003848}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8537651811832492727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2792808606014117931}
+  m_Layer: 0
+  m_Name: Boss_MaleSpine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2792808606014117931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537651811832492727}
+  m_LocalRotation: {x: -9.649247e-10, y: 0.000000020927502, z: 0.061722938, w: 0.9980933}
+  m_LocalPosition: {x: -0.45958343, y: 0, z: -5.9604643e-10}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 4036020513890176985}
+  m_Father: {fileID: 6516907059022244958}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9181313851188622627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7594672982511511549}
+  m_Layer: 0
+  m_Name: Boss_MaleLDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7594672982511511549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9181313851188622627}
+  m_LocalRotation: {x: 0.0000020607533, y: 0.0000005102867, z: 0.060964797, w: 0.9981399}
+  m_LocalPosition: {x: -0.16565673, y: 0, z: -0.000000038146972}
+  m_LocalScale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
+  m_Children:
+  - {fileID: 3837806846178407028}
+  m_Father: {fileID: 1188319237613791462}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
