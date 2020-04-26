@@ -72,12 +72,11 @@ public class AudioManager : MonoBehaviour
 		var newAudioSource = gameObject.AddComponent<AudioSource>();
 		var loading = soundtracks[0].LoadAssetAsync<AudioClip>();
 		yield return new WaitUntil(() => loading.IsDone);
-		yield return new WaitForSeconds(10f);
 		newAudioSource.clip = loading.Result;
 		newAudioSource.volume = 1;
 		newAudioSource.loop = true;
-		newAudioSource.playOnAwake = true;
-		newAudioSource.Play();
+		//newAudioSource.playOnAwake = true;
+		//newAudioSource.Play();
 	}
 
 	//public void SetSoundsVolume(float amount, string typeOfAudio)
