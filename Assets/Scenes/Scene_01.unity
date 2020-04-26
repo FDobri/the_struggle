@@ -1856,7 +1856,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2bb0ee5e8b1aa8e41874e6ba5312593f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2bb0ee5e8b1aa8e41874e6ba5312593f,
         type: 3}
@@ -4376,7 +4376,7 @@ RectTransform:
   m_Children:
   - {fileID: 2064277027}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4459,7 +4459,7 @@ Transform:
   - {fileID: 2085524053}
   - {fileID: 175034345}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1158468399
 PrefabInstance:
@@ -6515,7 +6515,7 @@ PrefabInstance:
     - target: {fileID: 7642042635604236521, guid: c825971e4f6fadb49a92e76a00f75cd2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7642042635604236521, guid: c825971e4f6fadb49a92e76a00f75cd2,
         type: 3}
@@ -6579,6 +6579,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4390272531011565571, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390272531011565571, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390272531011565571, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390272532217284577, guid: 756ae09d8b6be014d9e63d46d93d314b,
         type: 3}
       propertyPath: m_Name
@@ -6603,6 +6618,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390272532217284579, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390272532217284579, guid: 756ae09d8b6be014d9e63d46d93d314b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 39.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 756ae09d8b6be014d9e63d46d93d314b, type: 3}
@@ -6638,8 +6663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7843230cfdc37140876964dc904520c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainCamera: {fileID: 0}
-  OutroPrefab: {fileID: 0}
+  MainCamera: {fileID: 963194225}
+  OutroPrefab: {fileID: 3788342238152938276, guid: f37ec07165744674099c8caf3b568a81,
+    type: 3}
   sceneTransitionManager: {fileID: 1830887391}
   NextSceneName: Scene_02
   sceneChangeTimeOut: 1.85
@@ -6731,7 +6757,7 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1830887391
 MonoBehaviour:
