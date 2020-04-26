@@ -2,22 +2,26 @@
 
 public class PlayerGroundChecker : MonoBehaviour
 {
-	public bool IsGrounded{ get; private set; }
+	public bool IsGrounded { get; private set; }
+
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.collider.tag.Equals("Ground"))
-		{
-			IsGrounded = true;
-		}
+		string collisionTag = collision.transform.tag;
+		CheckIfGroundedAndSetState(collisionTag, true);
 	}
 
 	private void OnCollisionExit2D(Collision2D collision)
 	{
 		string collisionTag = collision.transform.tag;
+		CheckIfGroundedAndSetState(collisionTag, false);
+	}
+
+	private void CheckIfGroundedAndSetState(string collisionTag, bool grounded)
+	{
 		if (collisionTag.Equals("Ground") || collisionTag.Equals("Enemy"))
 		{
-			IsGrounded = false;
+			IsGrounded = grounded;
 		}
 	}
 }

@@ -13,36 +13,36 @@ public class PlayerDirectionSetter : MonoBehaviour
 
 	void Update()
 	{
-		Direction _playerDirection = playerMovementController.GetPlayerDirection();
+		//Direction _playerDirection = playerMovementController.GetPlayerDirection();
 
-		Vector3 currentAngle = transform.eulerAngles;
-		Vector3 targetAngle;
+		//Vector3 currentAngle = transform.eulerAngles;
+		//Vector3 targetAngle;
 
-		_singleStep = RotationSpeed * Time.deltaTime;
-		switch (_playerDirection)
-		{
-			case Direction.LEFT:
-				{
-					targetAngle = vectorLeft;
-					break;
-				}
+		//_singleStep = RotationSpeed * Time.deltaTime;
+		//switch (_playerDirection)
+		//{
+		//	case Direction.LEFT:
+		//		{
+		//			targetAngle = vectorLeft;
+		//			break;
+		//		}
 
-			case Direction.RIGHT:
-				{
-					targetAngle = vectorRight;
-					break;
-				}
+		//	case Direction.RIGHT:
+		//		{
+		//			targetAngle = vectorRight;
+		//			break;
+		//		}
 
-			default:
-				return;
-		}
+		//	default:
+		//		return;
+		//}
 
-		currentAngle = new Vector3(
-			 Mathf.LerpAngle(currentAngle.x, targetAngle.x, _singleStep),
-			 Mathf.LerpAngle(-currentAngle.y, targetAngle.y, _singleStep),
-			 Mathf.LerpAngle(currentAngle.z, targetAngle.z, _singleStep)
-			 );
+		//currentAngle = new Vector3(
+		//	 Mathf.LerpAngle(currentAngle.x, targetAngle.x, _singleStep),
+		//	 Mathf.LerpAngle(-currentAngle.y, targetAngle.y, _singleStep),
+		//	 Mathf.LerpAngle(currentAngle.z, targetAngle.z, _singleStep)
+		//	 );
 
-		transform.eulerAngles = currentAngle;
+		//transform.eulerAngles = currentAngle;
 	}
 }
