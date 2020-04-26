@@ -4887,6 +4887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22b9e3107ecbfe145809a06d5df9aca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerSpawnPoint: {x: -16, y: 0}
   femaleCharacterEvil: {fileID: 2902464314763846473, guid: 2204bf48a05008040b7bf5541eed33eb,
     type: 3}
   femaleCharacterGood: {fileID: 7227450617463026378, guid: 7748b66bfbf0f9c438463e1c2c7c5c25,
