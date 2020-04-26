@@ -1388,6 +1388,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1068885841}
     m_Modifications:
+    - target: {fileID: 114469993553976761, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTiling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1396,7 +1401,7 @@ PrefabInstance:
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
@@ -1457,6 +1462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: terrain_horizontal_bottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4858619b8dde44544b4a3267672add1d, type: 3}
