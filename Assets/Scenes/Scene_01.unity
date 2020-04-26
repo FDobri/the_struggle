@@ -4551,6 +4551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndLevelPortal
       objectReference: {fileID: 0}
+    - target: {fileID: 7772113588390292339, guid: a2fcc2466a498a2458396a99484ed704,
+        type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2fcc2466a498a2458396a99484ed704, type: 3}
 --- !u!1001 &832672439

@@ -820,6 +820,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 972039864}
     m_Modifications:
+    - target: {fileID: 2011093097149179756, guid: c9110302416fbbb4d8c7157f7739347e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2034609009478792163, guid: c9110302416fbbb4d8c7157f7739347e,
         type: 3}
       propertyPath: m_Sprite
@@ -947,6 +952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SoundButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081800214627744204, guid: c9110302416fbbb4d8c7157f7739347e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9110302416fbbb4d8c7157f7739347e, type: 3}
