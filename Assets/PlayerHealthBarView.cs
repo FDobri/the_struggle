@@ -11,8 +11,8 @@ public class PlayerHealthBarView : MonoBehaviour
 
     void Start()
     {
+        playerAttributes = GameObject.FindGameObjectWithTag("Player").GetComponent<Attributes>();
         prevPlayerHP = playerAttributes.currentHealth;
-        // TODO: get iz scene, kao i kamera
     }
 
     // Update is called once per frame
