@@ -3,7 +3,7 @@
 public class AttackController : MonoBehaviour
 {
 	private const float DAMAGE_HIT_BOX_DISTANCE = 2f;
-	private const float STANDARD_COOLDOWN = 3f;
+	private const float STANDARD_COOLDOWN = 1f;
 
 	public float attackCooldown = STANDARD_COOLDOWN;
 	public GameObject hitBoxLocation;

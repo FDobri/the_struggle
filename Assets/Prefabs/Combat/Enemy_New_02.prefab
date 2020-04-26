@@ -52,6 +52,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 8521721436941590137}
+    - target: {fileID: 1352877560935312612, guid: 24a1e036b3af9154f8bdcc681b642bf4,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1352877560935312613, guid: 24a1e036b3af9154f8bdcc681b642bf4,
         type: 3}
       propertyPath: m_LocalPosition.x
