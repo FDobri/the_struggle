@@ -22,13 +22,16 @@ public class AttackController : MonoBehaviour
 	{
 		if (canAttack)
 		{
-			if (Random.Range(0,9) % 2 == 0)
+			if (_animator != null)
 			{
-				_animator.SetTrigger("attack01");
-			}
-			else
-			{
-				_animator.SetTrigger("attack02");
+				if (Random.Range(0, 9) % 2 == 0)
+				{
+					_animator.SetTrigger("attack01");
+				}
+				else
+				{
+					_animator.SetTrigger("attack02");
+				}
 			}
 			Debug.Log(transform.name + " attacked!");
 			HitBoxController hitBoxController = hitBox.GetComponent<HitBoxController>();

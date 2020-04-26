@@ -17,7 +17,7 @@ public class CharacterDeath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerAttributes.GetComponent<Attributes>().currentHealth <= 0)
+        if (playerAttributes == null)
         {
             if (playerDeathScreen.activeInHierarchy == true)
             {
