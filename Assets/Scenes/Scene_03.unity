@@ -2077,8 +2077,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
-  m_Size: {x: 100, y: 10.1}
+  m_DrawMode: 1
+  m_Size: {x: 100, y: 16.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5203,7 +5203,7 @@ PrefabInstance:
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
-      value: terrain_vertical_left_lower (1)
+      value: terrain_vertical_left_angle
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
