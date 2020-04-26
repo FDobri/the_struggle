@@ -46,11 +46,11 @@ public class AudioManager : MonoBehaviour
 
 	private void Start()
 	{
-		StartCoroutine(PlayAudioTest());
+		//StartCoroutine(PlayAudioTest());
 	}
 
-	private IEnumerator PlayAudioTest()
-	{
+	//private IEnumerator PlayAudioTest()
+	//{
 		//var newAudioSource = gameObject.AddComponent<AudioSource>();
 		//while (true)
 		//{
@@ -69,15 +69,15 @@ public class AudioManager : MonoBehaviour
 		//}
 
 		//((AudioClip)addressableRef.Asset);
-		var newAudioSource = gameObject.AddComponent<AudioSource>();
-		var loading = soundtracks[0].LoadAssetAsync<AudioClip>();
-		yield return new WaitUntil(() => loading.IsDone);
-		newAudioSource.clip = loading.Result;
-		newAudioSource.volume = 1;
-		newAudioSource.loop = true;
+		//var newAudioSource = gameObject.AddComponent<AudioSource>();
+		//var loading = soundtracks[0].LoadAssetAsync<AudioClip>();
+		//yield return new WaitUntil(() => loading.IsDone);
+		//newAudioSource.clip = loading.Result;
+		//newAudioSource.volume = 1;
+		//newAudioSource.loop = true;
 		//newAudioSource.playOnAwake = true;
 		//newAudioSource.Play();
-	}
+	//}
 
 	//public void SetSoundsVolume(float amount, string typeOfAudio)
 	//{

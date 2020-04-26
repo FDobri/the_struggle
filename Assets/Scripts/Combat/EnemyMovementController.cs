@@ -3,11 +3,14 @@
 public class EnemyMovementController : MonoBehaviour
 {
 	private const float MIN_DISTANCE = 3f;
+	private Vector3 right = Vector3.up;
+	private Vector3 left = Vector3.up * -180f;
 
 	public Transform model;
 	public float movementSpeed = 10f;
 
 	private Vector3 _destination;
+	private float _direction;
 	private bool hasDestination;
 	private float _timeOnJourney = 0f;
 	private float _timeThreshold = 10f;
@@ -20,8 +23,17 @@ public class EnemyMovementController : MonoBehaviour
 		}
 		_timeOnJourney = 0f;
 		_destination = destination;
-		hasDestination = true;
-		model.right = destination - transform.position;
+		hasDestination = true;		
+
+		_direction = destination.x - transform.position.x;
+		if (_direction > 0f)
+		{
+			transform.eulerAngles = Vector3.up;
+		}
+		else
+		{
+			transform.eulerAngles = left;
+		}
 	}
 
 	private void Update()
@@ -32,7 +44,10 @@ public class EnemyMovementController : MonoBehaviour
 		}
 
 		_timeOnJourney += Time.deltaTime;
-		transform.position += model.right * Time.deltaTime * movementSpeed;
+
+		transform.position += transform.right * Time.fixedDeltaTime * movementSpeed;
+
+		//transform.position += model.right * Time.deltaTime * movementSpeed;
 		if (Vector2.Distance(model.position, _destination) < 3f || _timeOnJourney > _timeThreshold)
 		{
 			hasDestination = false;
