@@ -3738,6 +3738,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 604282392}
     m_Modifications:
+    - target: {fileID: 5547773292567248008, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
+        type: 3}
+      propertyPath: currentHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248008, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248009, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5547773292567248010, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3792,6 +3807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248011, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5547773292567248015, guid: 36b1f39c7bb89f1459e394bdc07c4eaa,
         type: 3}
@@ -9656,6 +9676,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 604282392}
     m_Modifications:
+    - target: {fileID: 5547773292567248008, guid: 02b9920d45b82034ebed58d33ea101c5,
+        type: 3}
+      propertyPath: currentHealth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248008, guid: 02b9920d45b82034ebed58d33ea101c5,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248009, guid: 02b9920d45b82034ebed58d33ea101c5,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5547773292567248010, guid: 02b9920d45b82034ebed58d33ea101c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9710,6 +9745,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547773292567248011, guid: 02b9920d45b82034ebed58d33ea101c5,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5547773292567248015, guid: 02b9920d45b82034ebed58d33ea101c5,
         type: 3}
