@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class BossDeathTrigger : MonoBehaviour
 {
-    public GameObject BossObject;
+    private GameObject BossObject;
     public GameObject portal;
 
     private bool isBossDead = false;
     
     void Start()
     {
-
+        BossObject = EndBossSpawner.activeBoss;
     }
     
     void Update()

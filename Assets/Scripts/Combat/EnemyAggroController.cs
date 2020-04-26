@@ -4,7 +4,7 @@ public class EnemyAggroController : MonoBehaviour
 {
 	private static Vector3 vectorLeft = new Vector3(0f, 180f, 0f);
 	private static Vector3 vectorRight = new Vector3(0f, 0f, 0f);
-
+	private const float PATROL_RANGE = 2f;
 	public GameObject enemyModel;
 	public EnemyMovementController enemyMovementController;
 
@@ -23,6 +23,12 @@ public class EnemyAggroController : MonoBehaviour
 	{
 		if (!inCombat || _player == null)
 		{
+			if (enemyMovementController.HasDestination())
+			{
+				return;
+			}
+			Vector3 patrolDestination = gameObject.transform.position * Random.Range(-PATROL_RANGE, PATROL_RANGE);
+			enemyMovementController.SetDestination(patrolDestination);
 			return;
 		}
 
