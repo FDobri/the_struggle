@@ -28,7 +28,7 @@ public class AttackController : MonoBehaviour
 					animator.SetTrigger("attack02");
 				}
 			}
-			Debug.Log(transform.name + " attacked!");
+			//Debug.Log(transform.name + " attacked!");
 			GameObject hitBox = Instantiate(hitBoxPrefab, hitBoxLocation.transform);
 			hitBox.GetComponent<HitBoxController>().Activate();
 			attackCooldown = STANDARD_COOLDOWN;

@@ -30,7 +30,7 @@ public class CharacterSelect : MonoBehaviour
 	{
 		Enum.TryParse(type, out _gameController.character);
 		_CharacterActivity(type);
-		Debug.Log(_gameController.character + " selected!");
+		//Debug.Log(_gameController.character + " selected!");
 	}
 
 	private void _CharacterActivity(string type)
