@@ -13,7 +13,7 @@ public class EnemyMovementController : MonoBehaviour
 	private float _direction;
 	private bool _hasDestination;
 	private float _timeOnJourney = 0f;
-	private float _timeThreshold = 10f;
+	private float _timeThreshold = 3f;
 
 	public void SetDestination(Vector3 destination)
 	{
