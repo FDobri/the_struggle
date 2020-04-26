@@ -29,7 +29,7 @@ public class VORDialogs
         Dialogs_Level_1.Add(new VORText("I am your Voice of Reason!", 3.0f));
         Dialogs_Level_1.Add(new VORText("I am your guide to what's normal...or not?", 3.0f));
         Dialogs_Level_1.Add(new VORText("Nothing is real here, yet everything is real.", 5.0f));
-        Dialogs_Level_1.Add(new VORText("Use the W and D keys on your keyboard to move...", 5.0f));
+        Dialogs_Level_1.Add(new VORText("Use the A and D keys on your keyboard to move...", 5.0f));
         Dialogs_Level_1.Add(new VORText("And press space to jump.", 3.0f));
         Dialogs_Level_1.Add(new VORText("See? This isn't real since you can actually jump and move, unlike in real life!", 5.0f));
         Dialogs_Level_1.Add(new VORText("Wait...What's going on?", 3.0f));

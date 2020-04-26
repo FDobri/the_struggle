@@ -21,6 +21,7 @@ public class Attributes : MonoBehaviour
 		{
 			//death anim or whatever
 			Destroy(gameObject);
+			Debug.Log("You have died window appeared!");
 		}
 	}
 }
