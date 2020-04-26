@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 78a0784752c1ef94cb2321243348b93c
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: _empty
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: _empty
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 553bdf9ef58caae468fac0b52044f68b
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Boss_MalePelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit11 1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit13
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit21
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit22
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleLDigit23
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit11 1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit13
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit21
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit22
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleRDigit23
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boss_MaleSpine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Boss_MALE(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character_MAIN_L
+      parentName: Boss_MALE(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MalePelvis
+      parentName: Boss_MALE(Clone)
+      position: {x: 0.0091547305, y: 3.0554748, z: -0.098282255}
+      rotation: {x: 0.49912703, y: -0.50087154, z: -0.49912694, w: 0.5008715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MaleSpine1
+      parentName: Boss_MalePelvis
+      position: {x: -0.12924561, y: 0.0528071, z: -0.000000026226044}
+      rotation: {x: 0.000000010857464, y: -0.00000011470128, z: -0.037080128, w: 0.9993123}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
+    - name: Boss_MaleSpine2
+      parentName: Boss_MaleSpine1
+      position: {x: -0.54844177, y: 0, z: 0}
+      rotation: {x: -0.0000000047100768, y: 0.0000000798723, z: 0.0866626, w: 0.99623775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MaleSpine3
+      parentName: Boss_MaleSpine2
+      position: {x: -0.45958343, y: 0, z: -5.9604643e-10}
+      rotation: {x: -9.649247e-10, y: 0.000000020927502, z: 0.061722938, w: 0.9980933}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Boss_MaleRibcage
+      parentName: Boss_MaleSpine3
+      position: {x: -0.49387968, y: 0, z: 0}
+      rotation: {x: -2.3092517e-11, y: -0.000000003921308, z: -0.1129479, w: 0.9936009}
+      scale: {x: 0.9999994, y: 0.9999994, z: 0.9999999}
+    - name: Boss_MaleNeck
+      parentName: Boss_MaleRibcage
+      position: {x: -0.118350826, y: 0.03071454, z: -0.000000026226044}
+      rotation: {x: 4.1465864e-10, y: -0.000000011813705, z: -0.106276795, w: 0.9943366}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Boss_MaleHead
+      parentName: Boss_MaleNeck
+      position: {x: -0.39032775, y: 0, z: 5.9604643e-10}
+      rotation: {x: -4.1466122e-10, y: 0.0000000118137065, z: 0.106276795, w: 0.9943366}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Boss_MaleLCollarbone
+      parentName: Boss_MaleRibcage
+      position: {x: -0.004332275, y: 0.030970039, z: 0.36558318}
+      rotation: {x: -0.06454277, y: 0.8072786, z: 0.08008634, w: 0.5811384}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MaleLUpperarm
+      parentName: Boss_MaleLCollarbone
+      position: {x: -0.43689573, y: -0.000000076293944, z: -0.00000030517577}
+      rotation: {x: 0.117566064, y: -0.12789916, z: -0.006756383, w: 0.98477125}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Boss_MaleLForearm
+      parentName: Boss_MaleLUpperarm
+      position: {x: -0.74295545, y: -0.000000038146972, z: -0.00000030517577}
+      rotation: {x: -0.014242558, y: -0.02809484, z: -0.035232726, w: 0.99888265}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Boss_MaleLPalm
+      parentName: Boss_MaleLForearm
+      position: {x: -0.7961877, y: 0.000000114440915, z: 0}
+      rotation: {x: -0.7235052, y: 0.0023938704, z: 0.11394116, w: 0.6808465}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
+    - name: Boss_MaleLDigit11 1
+      parentName: Boss_MaleLPalm
+      position: {x: -0.007528381, y: -0.009087524, z: 0.1317463}
+      rotation: {x: 0.18777081, y: 0.067269765, z: -0.048877954, w: 0.97868687}
+      scale: {x: 1.0000014, y: 0.99999833, z: 1.0000004}
+    - name: Boss_MaleLDigit12
+      parentName: Boss_MaleLDigit11 1
+      position: {x: -0.1637442, y: -0.00000030517577, z: 0}
+      rotation: {x: 0.00000035762775, y: -0.035804544, z: 0.00000037625418, w: 0.9993589}
+      scale: {x: 1.0000015, y: 0.99999833, z: 1.0000002}
+    - name: Boss_MaleLDigit13
+      parentName: Boss_MaleLDigit12
+      position: {x: -0.15786499, y: -0.00000061035155, z: 0.00000015258789}
+      rotation: {x: 0.0000006256029, y: -0.18085517, z: 0.0000013422709, w: 0.9835098}
+      scale: {x: 1.0000008, y: 0.99999845, z: 1.0000008}
+    - name: Boss_MaleLDigit21
+      parentName: Boss_MaleLPalm
+      position: {x: -0.2838728, y: 0.017265014, z: -0.000000095367426}
+      rotation: {x: -0.011643109, y: 0.038266864, z: -0.019019712, w: 0.9990187}
+      scale: {x: 1.0000019, y: 0.99999815, z: 1.0000001}
+    - name: Boss_MaleLDigit22
+      parentName: Boss_MaleLDigit21
+      position: {x: -0.16565673, y: 0, z: -0.000000038146972}
+      rotation: {x: 0.000001993961, y: 0.0000003390013, z: 0.040574215, w: 0.99917656}
+      scale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
+    - name: Boss_MaleLDigit23
+      parentName: Boss_MaleLDigit22
+      position: {x: -0.081662595, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.0000029721991, y: 0.00000021914165, z: -0.007299595, w: 0.99997336}
+      scale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
+    - name: Boss_MaleRCollarbone
+      parentName: Boss_MaleRibcage
+      position: {x: -0.004332275, y: 0.030970039, z: -0.36558318}
+      rotation: {x: -0.064543135, y: 0.8072781, z: -0.08008669, w: -0.5811388}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Boss_MaleRUpperarm
+      parentName: Boss_MaleRCollarbone
+      position: {x: -0.43689573, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.11756614, y: 0.12789908, z: -0.0067567416, w: 0.98477125}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Boss_MaleRForearm
+      parentName: Boss_MaleRUpperarm
+      position: {x: -0.7429553, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.014242254, y: 0.028094515, z: -0.03523306, w: 0.99888265}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Boss_MaleRPalm
+      parentName: Boss_MaleRForearm
+      position: {x: -0.7961876, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.7235052, y: -0.002393203, z: 0.113940276, w: 0.6808467}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: Boss_MaleRDigit11 1
+      parentName: Boss_MaleRPalm
+      position: {x: -0.0075286864, y: -0.009087524, z: -0.13174623}
+      rotation: {x: -0.18777093, y: -0.06727013, z: -0.048875645, w: 0.97868687}
+      scale: {x: 0.9999986, y: 1.0000015, z: 0.9999997}
+    - name: Boss_MaleRDigit12
+      parentName: Boss_MaleRDigit11 1
+      position: {x: -0.1637439, y: 0.00000030517577, z: 0.000000076293944}
+      rotation: {x: 0.00000035762778, y: 0.035801455, z: 0.0000023408788, w: 0.9993589}
+      scale: {x: 0.9999985, y: 1.0000015, z: 0.9999998}
+    - name: Boss_MaleRDigit13
+      parentName: Boss_MaleRDigit12
+      position: {x: -0.15786438, y: 0.00000061035155, z: 0}
+      rotation: {x: -0.0000000553282, y: 0.18085612, z: -0.0000019443078, w: 0.9835096}
+      scale: {x: 0.9999991, y: 1.0000015, z: 0.99999905}
+    - name: Boss_MaleRDigit21
+      parentName: Boss_MaleRPalm
+      position: {x: -0.283873, y: 0.017266234, z: -0.0000001335144}
+      rotation: {x: 0.011642662, y: -0.0382658, z: -0.019018274, w: 0.9990188}
+      scale: {x: 0.99999815, y: 1.0000018, z: 0.99999994}
+    - name: Boss_MaleRDigit22
+      parentName: Boss_MaleRDigit21
+      position: {x: -0.16565551, y: 0.00000030517577, z: -0.000000076293944}
+      rotation: {x: -0.0000028405336, y: 0.00000012665986, z: 0.040574457, w: 0.9991765}
+      scale: {x: 0.999998, y: 1.0000019, z: 0.99999994}
+    - name: Boss_MaleRDigit23
+      parentName: Boss_MaleRDigit22
+      position: {x: -0.08166229, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.0000019423635, y: 0.0000006116849, z: -0.0073010908, w: 0.99997336}
+      scale: {x: 0.99999803, y: 1.0000019, z: 0.9999999}
+    - name: Boss_MaleLThigh
+      parentName: Boss_MalePelvis
+      position: {x: 0.12866943, y: 0.12853931, z: 0.33948746}
+      rotation: {x: -0.0022253792, y: 0.98982984, z: 0.1215876, w: 0.07381361}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Boss_MaleLCalf
+      parentName: Boss_MaleLThigh
+      position: {x: -1.2909307, y: -0.0000001335144, z: 0.0000024414062}
+      rotation: {x: -0.0006738963, y: 0.0016584955, z: 0.058574725, w: 0.9982814}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Boss_MaleLFoot
+      parentName: Boss_MaleLCalf
+      position: {x: -1.4807953, y: 0.000000007152557, z: -0.000000076293944}
+      rotation: {x: -0.081795074, y: 0.028416172, z: -0.6532196, w: 0.75220096}
+      scale: {x: 0.99999994, y: 1.0000008, z: 0.99999917}
+    - name: Boss_MaleLDigit11
+      parentName: Boss_MaleLFoot
+      position: {x: -0.49600008, y: 0, z: 0}
+      rotation: {x: 0.000095288546, y: -0.0008489682, z: -0.112046115, w: 0.99370265}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: Boss_MaleRThigh
+      parentName: Boss_MalePelvis
+      position: {x: 0.12866943, y: 0.12853931, z: -0.33948746}
+      rotation: {x: -0.0022290444, y: 0.9898298, z: -0.1215873, w: -0.07381544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MaleRCalf
+      parentName: Boss_MaleRThigh
+      position: {x: -1.2909307, y: -0.000000114440915, z: -0.0000024414062}
+      rotation: {x: 0.00068474247, y: -0.0018355551, z: 0.0585895, w: 0.9982802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_MaleRFoot
+      parentName: Boss_MaleRCalf
+      position: {x: -1.4807953, y: 0.000000010728836, z: -0.000000076293944}
+      rotation: {x: 0.08212847, y: -0.027763639, z: -0.65326416, w: 0.7521503}
+      scale: {x: 1.0000001, y: 0.99999714, z: 1.0000026}
+    - name: Boss_MaleRDigit11
+      parentName: Boss_MaleRFoot
+      position: {x: -0.49600014, y: 0, z: 0}
+      rotation: {x: -0.000018916353, y: 0.00017094925, z: -0.11194206, w: 0.99371475}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 2
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
