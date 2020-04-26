@@ -11,4 +11,11 @@ public class SceneTransitionManager : MonoBehaviour
 		SceneManager.LoadScene(sceneName);
 		levelName = sceneName;
 	}
+
+	public void ResetScene()
+	{
+		string sceneName = SceneManager.GetActiveScene().name;
+		SceneManager.LoadScene(sceneName);
+		levelName = sceneName;
+	}
 }
