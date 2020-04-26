@@ -34,6 +34,7 @@ public class PlayerMovementController : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.Space) && _groundChecker.IsGrounded)
 		{
+			characterAnimator.SetTrigger("jumpT");
 			_jumpVector.Set(0f, jumpForce);
 			_rigidbody.AddForce(_jumpVector, jumpForceMode);
 		}

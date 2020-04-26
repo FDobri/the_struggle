@@ -11,10 +11,25 @@ public class AttackController : MonoBehaviour
 	[HideInInspector]
 	public bool canAttack = true;
 
+	private Animator _animator;
+
+	private void Start()
+	{
+		_animator = gameObject.GetComponentInChildren<Animator>();
+	}
+
 	public void Attack()
 	{
 		if (canAttack)
 		{
+			if (Random.Range(0,9) % 2 == 0)
+			{
+				_animator.SetTrigger("attack01");
+			}
+			else
+			{
+				_animator.SetTrigger("attack02");
+			}
 			Debug.Log(transform.name + " attacked!");
 			HitBoxController hitBoxController = hitBox.GetComponent<HitBoxController>();
 			hitBoxController.Activate();
