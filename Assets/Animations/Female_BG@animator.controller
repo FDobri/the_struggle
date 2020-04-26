@@ -37,7 +37,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 6b44461eee839dd4ab0efaa15f59b1fe,
+    m_Motion: {fileID: -203655887218126122, guid: 242d55f74f30fab479c0387a93fcf347,
       type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
@@ -46,8 +46,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: b07227d1c50f5b1449bb2a5edc194c71,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 257ebc3b767bd5d47be2af34bc43d840, type: 2}
     m_Threshold: 0.1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -55,7 +54,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 4c88396115e5dd64f873dc1029130554,
+    m_Motion: {fileID: -203655887218126122, guid: c18d1b47ebea3384ab09d49cad71aede,
       type: 3}
     m_Threshold: 0.2
     m_Position: {x: 0, y: 0}
@@ -242,7 +241,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Female_GG@animator
+  m_Name: Female_BG@animator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: attack01
@@ -362,7 +361,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 8472cbfe2aca7d047bee022128e11766,
+  m_Motion: {fileID: -203655887218126122, guid: 1cd98b0ffb34dfa429ad06a6202085f0,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -456,7 +455,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 2b6a8b7d1e7fe6b4ca7e50ee51183d91,
+  m_Motion: {fileID: -203655887218126122, guid: 9421dff41dae6944685b191c745eebaf,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 

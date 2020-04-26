@@ -6,6 +6,7 @@ public class CharacterDeath : MonoBehaviour
 {
     private Attributes playerAttributes;
     public GameObject playerDeathScreen;
+    public GameObject UICanvas;
 
     private float _playerHealth;
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class CharacterDeath : MonoBehaviour
             {
                 return;
             }
+            UICanvas.SetActive(false);
             playerDeathScreen.SetActive(true);
         }
     }
