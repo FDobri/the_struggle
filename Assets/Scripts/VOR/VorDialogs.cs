@@ -35,7 +35,7 @@ public class VORDialogs
         Dialogs_Level_1.Add(new VORText("Wait...What's going on?", 3.0f));
         Dialogs_Level_1.Add(new VORText("I sense some trouble in the outter world.", 3.0f));
         Dialogs_Level_1.Add(new VORText("'How?' you ask?", 2.0f));
-        Dialogs_Level_1.Add(new VORText("Fast, reach the the portal at the end of this level...", 4.0f));
+        Dialogs_Level_1.Add(new VORText("Fast, reach the portal at the end of this level...", 4.0f));
         Dialogs_Level_1.Add(new VORText("You'll find your answers there.", 2.0f));
 
         Dialogs_Level_2.Add(new VORText("There has been a breach of some kind...", 4.0f));
