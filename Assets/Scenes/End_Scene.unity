@@ -325,18 +325,18 @@ TextMesh:
   m_GameObject: {fileID: 1902601213}
   m_Text: "Never give up, and \nbe confident in what \nyou do. There may \nbe tough
     times, but \nthe difficulties which\nyou face will make \nyou more determined
-    \nto achieve your\nobjectives and to win\nagainst all the odds.\n\n\tThank you
-    for\n\t\t  playing!"
+    \nto achieve your\nobjectives and to win\nagainst all the odds.\n\n  Thank you
+    for\n\t  playing!"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 75
+  m_FontSize: 70
   m_FontStyle: 1
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 819e715ffc44f99418af8844482f3c98, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4278248703
@@ -358,7 +358,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 819e715ffc44f99418af8844482f3c98, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
