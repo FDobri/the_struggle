@@ -31,7 +31,7 @@ public class EndLevelController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (playerTriggeredEndSceneEvent)
+        if (!collider.tag.Equals("Player") || playerTriggeredEndSceneEvent)
         {
             return;
         }
