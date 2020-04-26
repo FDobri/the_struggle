@@ -5326,7 +5326,7 @@ PrefabInstance:
     - target: {fileID: 2269411091340284745, guid: ab79c3860103e5040906875a321e8596,
         type: 3}
       propertyPath: movementSpeed
-      value: 5
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 2269411091340284746, guid: ab79c3860103e5040906875a321e8596,
         type: 3}
@@ -7129,7 +7129,7 @@ PrefabInstance:
     - target: {fileID: 1352877560935312614, guid: 24a1e036b3af9154f8bdcc681b642bf4,
         type: 3}
       propertyPath: movementSpeed
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a1e036b3af9154f8bdcc681b642bf4, type: 3}
