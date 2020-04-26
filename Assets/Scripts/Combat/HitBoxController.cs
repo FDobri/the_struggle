@@ -2,18 +2,18 @@
 
 public class HitBoxController : MonoBehaviour
 {
-	private const float SELF_HIDE_TIMER = 0.5f;
+	private const float SELF_DESTRUCT_TIMER = 0.5f;
 
 	public string hitBoxTargetTag;
 
-	private float _selfHideTimer = SELF_HIDE_TIMER;
+	private float _selfDestructTimer = SELF_DESTRUCT_TIMER;
 
     void Update()
     {
-		_selfHideTimer -= Time.deltaTime;
-		if (_selfHideTimer <= 0.0f && gameObject != null)
+		_selfDestructTimer -= Time.deltaTime;
+		if (_selfDestructTimer <= 0.0f && gameObject != null)
 		{
-			gameObject.SetActive(false);
+			Destroy(gameObject);
 		}
 	}
 
@@ -26,7 +26,7 @@ public class HitBoxController : MonoBehaviour
 			if (collidedObjectAttributes)
 			{
 				collidedObjectAttributes.TakeDamage(damage);
-				gameObject.SetActive(false);
+				Destroy(gameObject);
 			}
 		}
 	}
@@ -34,6 +34,6 @@ public class HitBoxController : MonoBehaviour
 	public void Activate()
 	{
 		gameObject.SetActive(true);
-		_selfHideTimer = SELF_HIDE_TIMER;
+		_selfDestructTimer = SELF_DESTRUCT_TIMER;
 	}
 }

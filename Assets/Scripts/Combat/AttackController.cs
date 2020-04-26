@@ -6,37 +6,31 @@ public class AttackController : MonoBehaviour
 	private const float STANDARD_COOLDOWN = 3f;
 
 	public float attackCooldown = STANDARD_COOLDOWN;
-	public GameObject hitBox;
+	public GameObject hitBoxLocation;
+	public GameObject hitBoxPrefab;
+	public Animator animator;
 
 	[HideInInspector]
 	public bool canAttack = true;
-
-	private Animator _animator;
-
-	private void Start()
-	{
-		_animator = gameObject.GetComponentInChildren<Animator>();
-	}
 
 	public void Attack()
 	{
 		if (canAttack)
 		{
-			if (_animator != null)
+			if (animator != null)
 			{
 				if (Random.Range(0, 9) % 2 == 0)
 				{
-					_animator.SetTrigger("attack01");
+					animator.SetTrigger("attack01");
 				}
 				else
 				{
-					_animator.SetTrigger("attack02");
+					animator.SetTrigger("attack02");
 				}
 			}
 			Debug.Log(transform.name + " attacked!");
-			HitBoxController hitBoxController = hitBox.GetComponent<HitBoxController>();
-			hitBoxController.Activate();
-			//Play character animation (transition into)
+			GameObject hitBox = Instantiate(hitBoxPrefab, hitBoxLocation.transform);
+			hitBox.GetComponent<HitBoxController>().Activate();
 			attackCooldown = STANDARD_COOLDOWN;
 			canAttack = false;
 		}

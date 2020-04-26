@@ -11,6 +11,7 @@ public class PlayerHealthBarView : MonoBehaviour
 
     void Start()
     {
+        playerAttributes = GameObject.FindGameObjectWithTag("Player").GetComponent<Attributes>();
         prevPlayerHP = playerAttributes.currentHealth;
     }
 

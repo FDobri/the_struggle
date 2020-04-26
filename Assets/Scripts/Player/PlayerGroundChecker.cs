@@ -19,7 +19,7 @@ public class PlayerGroundChecker : MonoBehaviour
 
 	private void CheckIfGroundedAndSetState(string collisionTag, bool grounded)
 	{
-		if (collisionTag.Equals("Ground") || collisionTag.Equals("Enemy"))
+		if (collisionTag.Equals("Ground"))
 		{
 			IsGrounded = grounded;
 		}
