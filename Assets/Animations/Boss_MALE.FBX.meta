@@ -17,7 +17,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -66,7 +66,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1.8
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -390,177 +390,177 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MalePelvis
       parentName: Boss_MALE(Clone)
-      position: {x: 0.0091547305, y: 3.0554748, z: -0.098282255}
+      position: {x: 0.008239256, y: 2.749927, z: -0.08845402}
       rotation: {x: 0.49912703, y: -0.50087154, z: -0.49912694, w: 0.5008715}
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MaleSpine1
       parentName: Boss_MalePelvis
-      position: {x: -0.12924561, y: 0.0528071, z: -0.000000026226044}
+      position: {x: -0.116321035, y: 0.04752639, z: -0.000000023603436}
       rotation: {x: 0.000000010857464, y: -0.00000011470128, z: -0.037080128, w: 0.9993123}
       scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
     - name: Boss_MaleSpine2
       parentName: Boss_MaleSpine1
-      position: {x: -0.54844177, y: 0, z: 0}
+      position: {x: -0.4935975, y: 0, z: 0}
       rotation: {x: -0.0000000047100768, y: 0.0000000798723, z: 0.0866626, w: 0.99623775}
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MaleSpine3
       parentName: Boss_MaleSpine2
-      position: {x: -0.45958343, y: 0, z: -5.9604643e-10}
+      position: {x: -0.41362503, y: 0, z: -5.364417e-10}
       rotation: {x: -9.649247e-10, y: 0.000000020927502, z: 0.061722938, w: 0.9980933}
       scale: {x: 1.0000001, y: 0.99999994, z: 1}
     - name: Boss_MaleRibcage
       parentName: Boss_MaleSpine3
-      position: {x: -0.49387968, y: 0, z: 0}
+      position: {x: -0.44449168, y: 0, z: 0}
       rotation: {x: -2.3092517e-11, y: -0.000000003921308, z: -0.1129479, w: 0.9936009}
       scale: {x: 0.9999994, y: 0.9999994, z: 0.9999999}
     - name: Boss_MaleNeck
       parentName: Boss_MaleRibcage
-      position: {x: -0.118350826, y: 0.03071454, z: -0.000000026226044}
+      position: {x: -0.10651572, y: 0.027643083, z: -0.000000023603436}
       rotation: {x: 4.1465864e-10, y: -0.000000011813705, z: -0.106276795, w: 0.9943366}
       scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: Boss_MaleHead
       parentName: Boss_MaleNeck
-      position: {x: -0.39032775, y: 0, z: 5.9604643e-10}
+      position: {x: -0.35129493, y: 0, z: 5.364417e-10}
       rotation: {x: -4.1466122e-10, y: 0.0000000118137065, z: 0.106276795, w: 0.9943366}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Boss_MaleLCollarbone
       parentName: Boss_MaleRibcage
-      position: {x: -0.004332275, y: 0.030970039, z: 0.36558318}
+      position: {x: -0.0038990474, y: 0.027873032, z: 0.32902482}
       rotation: {x: -0.06454277, y: 0.8072786, z: 0.08008634, w: 0.5811384}
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MaleLUpperarm
       parentName: Boss_MaleLCollarbone
-      position: {x: -0.43689573, y: -0.000000076293944, z: -0.00000030517577}
+      position: {x: -0.39320612, y: -0.00000006866454, z: -0.00000027465816}
       rotation: {x: 0.117566064, y: -0.12789916, z: -0.006756383, w: 0.98477125}
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: Boss_MaleLForearm
       parentName: Boss_MaleLUpperarm
-      position: {x: -0.74295545, y: -0.000000038146972, z: -0.00000030517577}
+      position: {x: -0.66865987, y: -0.00000003433227, z: -0.00000027465816}
       rotation: {x: -0.014242558, y: -0.02809484, z: -0.035232726, w: 0.99888265}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: Boss_MaleLPalm
       parentName: Boss_MaleLForearm
-      position: {x: -0.7961877, y: 0.000000114440915, z: 0}
+      position: {x: -0.7165688, y: 0.00000010299681, z: 0}
       rotation: {x: -0.7235052, y: 0.0023938704, z: 0.11394116, w: 0.6808465}
       scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
     - name: Boss_MaleLDigit11 1
       parentName: Boss_MaleLPalm
-      position: {x: -0.007528381, y: -0.009087524, z: 0.1317463}
+      position: {x: -0.006775542, y: -0.0081787715, z: 0.11857167}
       rotation: {x: 0.18777081, y: 0.067269765, z: -0.048877954, w: 0.97868687}
       scale: {x: 1.0000014, y: 0.99999833, z: 1.0000004}
     - name: Boss_MaleLDigit12
       parentName: Boss_MaleLDigit11 1
-      position: {x: -0.1637442, y: -0.00000030517577, z: 0}
+      position: {x: -0.14736976, y: -0.00000027465816, z: 0}
       rotation: {x: 0.00000035762775, y: -0.035804544, z: 0.00000037625418, w: 0.9993589}
       scale: {x: 1.0000015, y: 0.99999833, z: 1.0000002}
     - name: Boss_MaleLDigit13
       parentName: Boss_MaleLDigit12
-      position: {x: -0.15786499, y: -0.00000061035155, z: 0.00000015258789}
+      position: {x: -0.14207847, y: -0.0000005493163, z: 0.00000013732908}
       rotation: {x: 0.0000006256029, y: -0.18085517, z: 0.0000013422709, w: 0.9835098}
       scale: {x: 1.0000008, y: 0.99999845, z: 1.0000008}
     - name: Boss_MaleLDigit21
       parentName: Boss_MaleLPalm
-      position: {x: -0.2838728, y: 0.017265014, z: -0.000000095367426}
+      position: {x: -0.2554855, y: 0.015538512, z: -0.000000085830685}
       rotation: {x: -0.011643109, y: 0.038266864, z: -0.019019712, w: 0.9990187}
       scale: {x: 1.0000019, y: 0.99999815, z: 1.0000001}
     - name: Boss_MaleLDigit22
       parentName: Boss_MaleLDigit21
-      position: {x: -0.16565673, y: 0, z: -0.000000038146972}
+      position: {x: -0.14909104, y: 0, z: -0.00000003433227}
       rotation: {x: 0.000001993961, y: 0.0000003390013, z: 0.040574215, w: 0.99917656}
       scale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
     - name: Boss_MaleLDigit23
       parentName: Boss_MaleLDigit22
-      position: {x: -0.081662595, y: 0, z: 0.000000076293944}
+      position: {x: -0.073496334, y: 0, z: 0.00000006866454}
       rotation: {x: -0.0000029721991, y: 0.00000021914165, z: -0.007299595, w: 0.99997336}
       scale: {x: 1.000002, y: 0.99999785, z: 1.0000001}
     - name: Boss_MaleRCollarbone
       parentName: Boss_MaleRibcage
-      position: {x: -0.004332275, y: 0.030970039, z: -0.36558318}
+      position: {x: -0.0038990474, y: 0.027873032, z: -0.32902482}
       rotation: {x: -0.064543135, y: 0.8072781, z: -0.08008669, w: -0.5811388}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: Boss_MaleRUpperarm
       parentName: Boss_MaleRCollarbone
-      position: {x: -0.43689573, y: 0.000000076293944, z: 0}
+      position: {x: -0.39320612, y: 0.00000006866454, z: 0}
       rotation: {x: -0.11756614, y: 0.12789908, z: -0.0067567416, w: 0.98477125}
       scale: {x: 1, y: 1.0000001, z: 1}
     - name: Boss_MaleRForearm
       parentName: Boss_MaleRUpperarm
-      position: {x: -0.7429553, y: 0.000000038146972, z: 0}
+      position: {x: -0.66865975, y: 0.00000003433227, z: 0}
       rotation: {x: 0.014242254, y: 0.028094515, z: -0.03523306, w: 0.99888265}
       scale: {x: 0.9999999, y: 1, z: 1}
     - name: Boss_MaleRPalm
       parentName: Boss_MaleRForearm
-      position: {x: -0.7961876, y: -0.000000076293944, z: 0}
+      position: {x: -0.7165688, y: -0.00000006866454, z: 0}
       rotation: {x: 0.7235052, y: -0.002393203, z: 0.113940276, w: 0.6808467}
       scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
     - name: Boss_MaleRDigit11 1
       parentName: Boss_MaleRPalm
-      position: {x: -0.0075286864, y: -0.009087524, z: -0.13174623}
+      position: {x: -0.006775818, y: -0.0081787715, z: -0.11857159}
       rotation: {x: -0.18777093, y: -0.06727013, z: -0.048875645, w: 0.97868687}
       scale: {x: 0.9999986, y: 1.0000015, z: 0.9999997}
     - name: Boss_MaleRDigit12
       parentName: Boss_MaleRDigit11 1
-      position: {x: -0.1637439, y: 0.00000030517577, z: 0.000000076293944}
+      position: {x: -0.14736949, y: 0.00000027465816, z: 0.00000006866454}
       rotation: {x: 0.00000035762778, y: 0.035801455, z: 0.0000023408788, w: 0.9993589}
       scale: {x: 0.9999985, y: 1.0000015, z: 0.9999998}
     - name: Boss_MaleRDigit13
       parentName: Boss_MaleRDigit12
-      position: {x: -0.15786438, y: 0.00000061035155, z: 0}
+      position: {x: -0.14207792, y: 0.0000005493163, z: 0}
       rotation: {x: -0.0000000553282, y: 0.18085612, z: -0.0000019443078, w: 0.9835096}
       scale: {x: 0.9999991, y: 1.0000015, z: 0.99999905}
     - name: Boss_MaleRDigit21
       parentName: Boss_MaleRPalm
-      position: {x: -0.283873, y: 0.017266234, z: -0.0000001335144}
+      position: {x: -0.25548568, y: 0.015539609, z: -0.00000012016295}
       rotation: {x: 0.011642662, y: -0.0382658, z: -0.019018274, w: 0.9990188}
       scale: {x: 0.99999815, y: 1.0000018, z: 0.99999994}
     - name: Boss_MaleRDigit22
       parentName: Boss_MaleRDigit21
-      position: {x: -0.16565551, y: 0.00000030517577, z: -0.000000076293944}
+      position: {x: -0.14908996, y: 0.00000027465816, z: -0.00000006866454}
       rotation: {x: -0.0000028405336, y: 0.00000012665986, z: 0.040574457, w: 0.9991765}
       scale: {x: 0.999998, y: 1.0000019, z: 0.99999994}
     - name: Boss_MaleRDigit23
       parentName: Boss_MaleRDigit22
-      position: {x: -0.08166229, y: 0, z: 0.000000076293944}
+      position: {x: -0.07349605, y: 0, z: 0.00000006866454}
       rotation: {x: 0.0000019423635, y: 0.0000006116849, z: -0.0073010908, w: 0.99997336}
       scale: {x: 0.99999803, y: 1.0000019, z: 0.9999999}
     - name: Boss_MaleLThigh
       parentName: Boss_MalePelvis
-      position: {x: 0.12866943, y: 0.12853931, z: 0.33948746}
+      position: {x: 0.115802474, y: 0.115685366, z: 0.30553868}
       rotation: {x: -0.0022253792, y: 0.98982984, z: 0.1215876, w: 0.07381361}
       scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: Boss_MaleLCalf
       parentName: Boss_MaleLThigh
-      position: {x: -1.2909307, y: -0.0000001335144, z: 0.0000024414062}
+      position: {x: -1.1618376, y: -0.00000012016295, z: 0.0000021972653}
       rotation: {x: -0.0006738963, y: 0.0016584955, z: 0.058574725, w: 0.9982814}
       scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
     - name: Boss_MaleLFoot
       parentName: Boss_MaleLCalf
-      position: {x: -1.4807953, y: 0.000000007152557, z: -0.000000076293944}
+      position: {x: -1.3327156, y: 0.0000000064373005, z: -0.00000006866454}
       rotation: {x: -0.081795074, y: 0.028416172, z: -0.6532196, w: 0.75220096}
       scale: {x: 0.99999994, y: 1.0000008, z: 0.99999917}
     - name: Boss_MaleLDigit11
       parentName: Boss_MaleLFoot
-      position: {x: -0.49600008, y: 0, z: 0}
+      position: {x: -0.4464, y: 0, z: 0}
       rotation: {x: 0.000095288546, y: -0.0008489682, z: -0.112046115, w: 0.99370265}
       scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
     - name: Boss_MaleRThigh
       parentName: Boss_MalePelvis
-      position: {x: 0.12866943, y: 0.12853931, z: -0.33948746}
+      position: {x: 0.115802474, y: 0.115685366, z: -0.30553868}
       rotation: {x: -0.0022290444, y: 0.9898298, z: -0.1215873, w: -0.07381544}
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MaleRCalf
       parentName: Boss_MaleRThigh
-      position: {x: -1.2909307, y: -0.000000114440915, z: -0.0000024414062}
+      position: {x: -1.1618376, y: -0.00000010299681, z: -0.0000021972653}
       rotation: {x: 0.00068474247, y: -0.0018355551, z: 0.0585895, w: 0.9982802}
       scale: {x: 1, y: 1, z: 1}
     - name: Boss_MaleRFoot
       parentName: Boss_MaleRCalf
-      position: {x: -1.4807953, y: 0.000000010728836, z: -0.000000076293944}
+      position: {x: -1.3327156, y: 0.000000009655951, z: -0.00000006866454}
       rotation: {x: 0.08212847, y: -0.027763639, z: -0.65326416, w: 0.7521503}
       scale: {x: 1.0000001, y: 0.99999714, z: 1.0000026}
     - name: Boss_MaleRDigit11
       parentName: Boss_MaleRFoot
-      position: {x: -0.49600014, y: 0, z: 0}
+      position: {x: -0.4464001, y: 0, z: 0}
       rotation: {x: -0.000018916353, y: 0.00017094925, z: -0.11194206, w: 0.99371475}
       scale: {x: 1.0000001, y: 1, z: 1}
     armTwist: 0.5
@@ -570,7 +570,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2
+    globalScale: 1.8
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
