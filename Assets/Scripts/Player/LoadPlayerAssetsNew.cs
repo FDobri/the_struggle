@@ -14,7 +14,6 @@ public class LoadPlayerAssetsNew : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Awake time");
         _gameController = GameController.gameControllerInstance;
 
         if (_gameController != null && _gameController.character.ToString() == "Female")
@@ -49,7 +48,6 @@ public class LoadPlayerAssetsNew : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Start time");
       
     }
 
