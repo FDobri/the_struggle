@@ -32,6 +32,8 @@ public class VORDialogs
         Dialogs_Level_1.Add(new VORText("Use the A and D keys on your keyboard to move...", 5.0f));
         Dialogs_Level_1.Add(new VORText("And press space to jump.", 3.0f));
         Dialogs_Level_1.Add(new VORText("See? This isn't real since you can actually jump and move, unlike in real life!", 5.0f));
+        Dialogs_Level_1.Add(new VORText("To defend yourself use your sword...", 3.0f));
+        Dialogs_Level_2.Add(new VORText("Press the left click button to attack!", 3.0f));
         Dialogs_Level_1.Add(new VORText("Wait...What's going on?", 3.0f));
         Dialogs_Level_1.Add(new VORText("I sense some trouble in the outter world.", 3.0f));
         Dialogs_Level_1.Add(new VORText("'How?' you ask?", 2.0f));
@@ -46,7 +48,7 @@ public class VORDialogs
         Dialogs_Level_2.Add(new VORText("Run from them or fight them, what's your choice?", 4.0f));
         Dialogs_Level_2.Add(new VORText("How long has it been since you've been running tho?", 4.0f));
         Dialogs_Level_2.Add(new VORText("Need to find a better option...hmmm...ah, got it!", 4.0f));
-        Dialogs_Level_2.Add(new VORText("Press the left click button to attack!", 3.0f));
+        Dialogs_Level_2.Add(new VORText("Play FF7 remake, that's a game, not this one!", 4.0f));
 
         Dialogs_Level_3.Add(new VORText("Back to normal huh?", 3.0f));
         Dialogs_Level_3.Add(new VORText("Guess some of your emotions just got real.", 4.0f));
