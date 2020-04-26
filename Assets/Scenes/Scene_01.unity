@@ -245,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -778,6 +783,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -902,6 +912,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -1035,6 +1050,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -1113,6 +1133,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -1229,7 +1254,7 @@ PrefabInstance:
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3500001
+      value: 1.364
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768048, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
@@ -1310,6 +1335,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -1529,6 +1559,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -1732,6 +1767,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -2080,6 +2120,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -2215,6 +2260,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -2488,11 +2538,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f9b2b8af6871e5b438000fbecb24ebe5,
+      objectReference: {fileID: 21300000, guid: 08d0fdac16d81394c9744bef12cb4c04,
         type: 3}
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -2716,6 +2771,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -3159,6 +3219,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -3288,6 +3353,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -3772,6 +3842,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
@@ -5046,6 +5121,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -5318,6 +5398,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -5535,6 +5620,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Name
@@ -5750,6 +5840,11 @@ PrefabInstance:
     - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526415587708768049, guid: 4858619b8dde44544b4a3267672add1d,
+        type: 3}
+      propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7526415587708768050, guid: 4858619b8dde44544b4a3267672add1d,
